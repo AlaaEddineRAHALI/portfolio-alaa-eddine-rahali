@@ -1,3 +1,10 @@
+.sections section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  padding: 1rem;
+}
 *,
 *:after,
 *:before {
@@ -5,19 +12,26 @@
 }
 body {
   margin: 0;
+  padding-top: 60px;
 }
-
 h2,
 p {
   margin: 0 0 1rem;
 }
-
 .triggers {
+  align-items: center;
+  background-color: white;
+  height: 60px;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .triggers ul {
   display: flex;
-  gap: 1rem;
+  justify-content: flex-end;
+  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -28,16 +42,16 @@ p {
   cursor: pointer;
   font-family: inherit;
   padding: 0;
+  font-size: 1rem;
 }
 .triggers button.active {
-  color: green;
-}
-
-.sections {
-  height: 300px;
-  overflow: auto;
+  color: rgb(205, 29, 173);
 }
 .sections section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
   padding: 1rem;
 }
 .sections section:nth-child(odd) {
