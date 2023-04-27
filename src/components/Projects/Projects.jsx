@@ -3,9 +3,11 @@ import "./projectsStyles.css";
 
 const Projects = () => {
   return (
-    <div>
-      <div>Timeline</div>
-    </div>
+    <>
+      <section id="projects" className="section__project">
+        Projects
+      </section>
+    </>
   );
 };
 

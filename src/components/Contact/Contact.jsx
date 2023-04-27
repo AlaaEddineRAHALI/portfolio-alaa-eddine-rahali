@@ -3,9 +3,12 @@ import "./contactStyles.css";
 
 const Contact = () => {
   return (
-    <div>
-      <div>Contact</div>
-    </div>
+    <>
+      <section id="contact" className="section__contact">
+        <h1>contact</h1>
+      </section>
+      <span>&nbsp;</span>
+    </>
   );
 };
 
