@@ -30,7 +30,10 @@
   text-align: left;
   color: #354e65;
 }
-
+.date {
+  font-weight: bold;
+  color: #59b4e6;
+}
 .test {
   display: flex;
   flex-direction: column;

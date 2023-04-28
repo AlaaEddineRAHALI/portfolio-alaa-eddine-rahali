@@ -7,9 +7,10 @@
   z-index: 2;
   height: 70px;
   min-height: 70px;
-  width: calc(100% - 1.5rem);
+  width: 100%;
+  /* width: calc(100% - 1.5rem); */
   background-color: #fff;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
@@ -60,8 +61,8 @@ section {
 
 #about {
   height: 100vh;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
   background: #000000;
   color: white;
   text-align: center;
@@ -69,8 +70,8 @@ section {
 }
 #skills {
   height: 100vh;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
   background: rgb(129, 124, 129);
   color: white;
   text-align: center;
@@ -78,17 +79,17 @@ section {
 }
 #experiences {
   height: auto;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
   background: #000000;
   color: white;
-  padding: 100px;
+  padding: 30px;
 }
 
 #projects {
   height: 100vh;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
   background: rgb(129, 124, 129);
   color: #eaf2fa;
   text-align: center;
@@ -96,8 +97,8 @@ section {
 }
 #contact {
   height: 100vh;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
   background: #000000;
   color: white;
   text-align: center;

@@ -26,7 +26,7 @@ function Experiences() {
             className="vertical-timeline-element--work "
             contentStyle={{ background: "#9D9D9", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-            date="Mars 2023"
+            date={<span className="date">Mars 2023</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -47,7 +47,7 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Juin 2022 - Novembre 2022"
+            date={<span className="date">Juin 2022 - Novembre 2022</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -77,7 +77,7 @@ function Experiences() {
               </li>
               <li className="test1">• Styliser avec SaSS/SCSS.</li>
               <li className="test1">
-                • S’inscrire avec hashage de mot de passe.
+                • S&apos;inscrire avec hashage de mot de passe.
               </li>
               <li className="test1">
                 • S&apos;authentifier les comptes pour accéder à l&apos;espace
@@ -91,7 +91,7 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Juin 2019 - Septembre 2021"
+            date={<span className="date">Juin 2019 - Septembre 2021</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -161,14 +161,14 @@ function Experiences() {
                 • Recueillir, Formaliser et prioriser les besoins métiers
               </li>
               <li className="test1">
-                • Suivre l’avancement du déploiement (User formés, Kit de
+                • Suivre l&apos;avancement du déploiement (User formés, Kit de
                 communication…)
               </li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Février 2019"
+            date={<span className="date">Février 2019</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -188,7 +188,7 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="Septembre 2017 - Juin 2019"
+            date={<span className="date">Septembre 2017 - Juin 2019</span>}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -223,14 +223,15 @@ function Experiences() {
                 animer les KPI à destination du TOP Management{" "}
               </li>
               <li className="test1">
-                • S’inscrire avec hashage de mot de passe.
+                • S&apos;inscrire avec hashage de mot de passe.
               </li>
               <li className="test1">
-                • S'authentifier les comptes pour accéder à l’espace organisme.
+                • S&apos;authentifier les comptes pour accéder à l&apos;espace
+                organisme.
               </li>
               <li className="test1">
                 • Participer au suivi du déploiement au travers des sociétés
-                partenaires de l'entreprise (Migration Projets....)
+                partenaires de l&apos;entreprise (Migration Projets....)
               </li>
               <li className="test1">
                 • Suivre les livrables et du planning et garantir la mise à jour
@@ -240,7 +241,7 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="Novembre 2014 - Juillet 2017"
+            date={<span className="date">Novembre 2014 - Juillet 2017</span>}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -290,7 +291,7 @@ function Experiences() {
               </li>
             </ul>
             <p className="container-title1">
-              Evolution fonctionnelle de l’ERP Everwin GX:
+              Evolution fonctionnelle de l&apos;ERP Everwin GX:
             </p>
             <ul className="test">
               <li className="test1">
@@ -298,8 +299,8 @@ function Experiences() {
                 d’information…)
               </li>
               <li className="test1">
-                • Piloter un projet d'harmonisation des articles sur le groupe
-                ADS Laminaire
+                • Piloter un projet d&apos;harmonisation des articles sur le
+                groupe ADS Laminaire
               </li>
               <li className="test1">
                 • Gérer et créer les références des produits
@@ -309,11 +310,11 @@ function Experiences() {
                 famille et sous famille
               </li>
               <li className="test1">
-                • Evoluer les règles d'affichages en relation avec le
+                • Evoluer les règles d&apos;affichages en relation avec le
                 sous-traitant Informatique
               </li>
               <li className="test1">
-                • Former les collaborateurs à l’utilisation de l’ERP
+                • Former les collaborateurs à l&apos;utilisation de l&apos;ERP
               </li>
             </ul>
             <p className="container-title1">Service Production:</p>
@@ -323,7 +324,7 @@ function Experiences() {
                 hors standards
               </li>
               <li className="test1">
-                • Coordiner entre les services internes (Bureau d’études,
+                • Coordiner entre les services internes (Bureau d&apos;études,
                 Production…)
               </li>
             </ul>
@@ -339,7 +340,7 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2002 - 2006"
+            date={<span className="date">2002 - 2006</span>}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -375,7 +376,7 @@ function Experiences() {
             className="vertical-timeline-element--work "
             contentStyle={{ background: "#9D9D9", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-            date="2010 - 2013"
+            date={<span className="date">2010 - 2013</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -398,7 +399,7 @@ function Experiences() {
             className="vertical-timeline-element--work "
             contentStyle={{ background: "#9D9D9", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-            date="2009 - 2010"
+            date={<span className="date">2009 - 2010</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
@@ -424,7 +425,7 @@ function Experiences() {
             className="vertical-timeline-element--work "
             contentStyle={{ background: "#9D9D9", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-            date="2006-2008"
+            date={<span className="date">2006 - 2008</span>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <div className="icone-container">
