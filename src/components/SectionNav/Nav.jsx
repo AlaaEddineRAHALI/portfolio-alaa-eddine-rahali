@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Nav = () => {
   return (
-    <div className="nav__container">
+    <div className="nav__container ">
       <header className="nav">
         <nav className="nav__container__actions">
           <ul>

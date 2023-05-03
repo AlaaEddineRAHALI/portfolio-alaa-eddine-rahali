@@ -19,11 +19,16 @@ import "react-vertical-timeline-component/style.min.css";
 function Experiences() {
   return (
     <>
-      <section id="experiences">
-        <p className="title">Ingénieur Consultant </p>
+      <section
+        id="experiences"
+        className=" 4  pt-32 pb-15 bg-black  px-5 sm:px-20  "
+      >
+        <p className=" title text-3xl font-bold sm:text-6xl">
+          Ingénieur Consultant{" "}
+        </p>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work "
+            className="vertical-timeline-element--work"
             contentStyle={{ background: "#9D9D9", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
             date={<span className="date">Mars 2023</span>}

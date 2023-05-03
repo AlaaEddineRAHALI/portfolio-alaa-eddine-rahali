@@ -1,0 +1,6 @@
+.skills {
+  cursor: default;
+}
+.skills:hover {
+  text-decoration: none;
+}

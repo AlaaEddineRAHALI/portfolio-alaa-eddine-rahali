@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .nav {
   display: flex;
   align-items: center;
@@ -61,46 +64,27 @@ section {
 
 #about {
   height: 100vh;
-  /* margin-right: 5rem;
-  margin-left: 5rem; */
-  background: #000000;
+  background: greenyellow;
   color: white;
   text-align: center;
   padding-top: 25rem;
 }
-#skills {
-  height: 100vh;
-  /* margin-right: 5rem;
-  margin-left: 5rem; */
-  background: rgb(129, 124, 129);
-  color: white;
-  text-align: center;
-  padding-top: 25rem;
-}
+
 #experiences {
   height: auto;
-  /* margin-right: 5rem;
-  margin-left: 5rem; */
-  background: #000000;
+  background: black;
   color: white;
-  padding: 30px;
+}
+
+#contact {
+  height: 100vh;
+  background: red;
+  color: white;
+  text-align: center;
+  padding-top: 25rem;
 }
 
 #projects {
-  height: 100vh;
-  /* margin-right: 5rem;
-  margin-left: 5rem; */
-  background: rgb(129, 124, 129);
-  color: #eaf2fa;
-  text-align: center;
-  padding-top: 25rem;
-}
-#contact {
-  height: 100vh;
-  /* margin-right: 5rem;
-  margin-left: 5rem; */
-  background: #000000;
+  height: auto;
   color: white;
-  text-align: center;
-  padding-top: 25rem;
 }

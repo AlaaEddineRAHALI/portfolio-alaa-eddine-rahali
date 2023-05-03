@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* RESET */
 
 /*http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
@@ -107,6 +111,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: "Encode Sans Condensed", sans-serif;
 }
 
 ol,
