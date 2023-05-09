@@ -4,7 +4,7 @@ import "./aboutMeStyles.css";
 const AboutMe = () => {
   return (
     <section id="about" className=" bg-black  px-5 sm:px-20 ">
-      <h2 className="mt-6 pb-4 text-3xl font-bold sm:text-6xl">Compétences</h2>
+      <h2 className="mt-6 pb-4 text-3xl font-bold sm:text-6xl">CAcceuil</h2>
       <h2>Développeur Front-End</h2>
       <p>
         Bienvenue sur mon portfolio !Après huit années d&apos;expérience dans

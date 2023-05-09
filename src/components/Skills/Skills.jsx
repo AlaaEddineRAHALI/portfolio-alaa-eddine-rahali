@@ -3,10 +3,13 @@ import "./skillsStyles.css";
 
 const Skills = () => {
   return (
-    <section id="skills" className=" bg-black  px-5 py-[13%]  sm:px-20 ">
-      <div className=" pt-10 text-white">
-        <div className="mx-auto  max-w-screen-xl px-4  sm:px-6 sm:py-12 md:px-11 md:py-8 lg:px-8">
-          <div className=" text-left ">
+    <section
+      id="skills"
+      className=" bg-black px-5  py-[15%] sm:px-2 md:py-[6%]  md:pb-[42%] lg:py-[05%] lg:pb-[8%]"
+    >
+      <div className="  text-white ">
+        <div className="mx-auto  max-w-screen-xl px-4  sm:px-6 sm:py-12 md:px-11 lg:px-8 ">
+          <div className=" text-left  ">
             <h2 className="mt-6 pb-4 text-3xl font-bold sm:text-6xl">
               Compétences
             </h2>
@@ -18,9 +21,9 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="mx-5 mt-8 grid grid-cols-1 gap-10 sm:mx-1 md:grid-cols-2 lg:grid-cols-3 ">
-            <div className=" block h-80 rounded-xl bg-[#D9D9D9] p-8  shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 ">
-              <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8  ">
+          <div className="mx-5 mt-8 grid grid-cols-1 gap-10 sm:mx-1 md:grid-cols-3 lg:grid-cols-3  ">
+            <div className="   block h-full rounded-xl bg-[#D9D9D9] p-8 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:w-full lg:w-full">
+              <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                 Développement Backend
               </h2>
 
@@ -32,8 +35,8 @@ const Skills = () => {
                 <li className="skills py-1">Sequelize</li>
               </ol>
             </div>
-            <div className=" skills block rounded-xl bg-[#D9D9D9]  p-8 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10">
-              <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8">
+            <div className="   block h-full rounded-xl bg-[#D9D9D9] p-8 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:w-full lg:w-full">
+              <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8 ">
                 Développement FrontEnd
               </h2>
 
@@ -44,7 +47,7 @@ const Skills = () => {
                 <li className="skills py-1">React</li>
               </ol>
             </div>
-            <div className=" skills block rounded-xl bg-[#D9D9D9]  p-8 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10">
+            <div className="   block h-full rounded-xl bg-[#D9D9D9] p-8 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:w-full lg:w-full">
               <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8">
                 Gestion de projet
               </h2>
