@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.section__contact {
-  background-color: #fff;
+
+.image {
+  border-radius: 50%;
 }

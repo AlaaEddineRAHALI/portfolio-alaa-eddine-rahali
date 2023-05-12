@@ -1,21 +1,40 @@
 import React from "react";
 import "./aboutMeStyles.css";
+import alaaeddine from "../../assets/images/alaaeddine.png";
 
 const AboutMe = () => {
   return (
-    <section id="about" className=" bg-black  px-5 sm:px-20 ">
-      <h2 className="mt-6 pb-4 text-3xl font-bold sm:text-6xl">CAcceuil</h2>
-      <h2>Développeur Front-End</h2>
-      <p>
-        Bienvenue sur mon portfolio !Après huit années d&apos;expérience dans
-        l&apos;ingénierie industrielle, j&apos;ai décidé d&apos;entamer une
-        reconversion professionnelle. Aujourd&apos;hui, je suis dévloppeur
-        Fullstack Javascript. Bien que j&apos;utilise React, mais j&apos;ai soif
-        d&apos;apprendre d&apos;autres technologies. Mobile et basé en
-        Île-de-France, je suis disponible pour collaborer sur des projets
-        passionnants.
-      </p>
-      ABOUT
+    <section id="about" className=" px-5 py-[16%]  lg:pt-[06%] sm:px-20 ">
+      <div>
+        <div className=" flex flex-col items-center ">
+          <div>
+            <img
+              src={alaaeddine}
+              alt="About picture"
+              className="box rounded-full"
+            />
+          </div>
+          <div className="pt-12 lg:pt-0 flex flex-col items-center">
+            <h1 className=" pb-8 md:pt-16 text-3xl">
+              Salut et bienvenue sur mon portoflio Je m&apos;appelle
+            </h1>
+            <p className="animate-charcter px-8 py-4 text-7xl"> Alaa Eddine</p>
+            <h1 className=" lg:pt-2 md:pt-8 text-3xl text-[#0172B1]">
+              Ingénieur Consultant
+            </h1>
+            <h2 className=" pb-12 lg:pb-8 text-3xl text-[#0172B1]">
+              Développeur Junior Full Stack React Javascript
+            </h2>
+
+            <a
+              className=" inline-block rounded-3xl bg-[#0172b1] px-8 py-3 text-xl  font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+              href="/download"
+            >
+              Télécharger CV
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

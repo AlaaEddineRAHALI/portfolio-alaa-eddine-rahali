@@ -8,9 +8,11 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <AboutMe />
+    <div className="bg-black">
+      <div className="bg-header-pattern  bg-cover bg-center bg-no-repeat">
+        <Nav />
+        <AboutMe />
+      </div>
       <Skills />
       <Experiences />
       <Projects />

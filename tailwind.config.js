@@ -9,7 +9,7 @@ export default {
         tertiary: "",
       },
       backgroundImage: {
-        "header-pattern": "",
+        "header-pattern": "url('/src/assets/images/bg_profil.png')",
       },
     },
   },

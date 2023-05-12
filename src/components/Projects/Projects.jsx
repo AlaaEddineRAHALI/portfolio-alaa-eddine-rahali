@@ -6,10 +6,7 @@ import portofolio from "../../assets/images/icone/portofolio.png";
 const Projects = () => {
   return (
     <>
-      <section
-        id="projects"
-        className="  bg-black px-5 py-[20%] sm:px-20 sm:py-[9%] "
-      >
+      <section id="projects" className="  px-5 py-[20%] sm:px-20 sm:py-[13%] ">
         <h2 className=" mt-2 pb-4 text-3xl font-bold sm:text-6xl">
           Réalisations
         </h2>
