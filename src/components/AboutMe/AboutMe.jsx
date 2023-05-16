@@ -4,34 +4,36 @@ import alaaeddine from "../../assets/images/alaaeddine.png";
 
 const AboutMe = () => {
   return (
-    <section id="about" className=" px-5 py-[16%]  lg:pt-[06%] sm:px-20 ">
+    <section id="about" className=" px-5 py-[16%]  sm:px-20 lg:pt-[06%] ">
       <div>
         <div className=" flex flex-col items-center ">
-          <div>
-            <img
-              src={alaaeddine}
-              alt="About picture"
-              className="box rounded-full"
-            />
-          </div>
-          <div className="pt-12 lg:pt-0 flex flex-col items-center">
-            <h1 className=" pb-8 md:pt-16 text-3xl">
-              Salut et bienvenue sur mon portoflio Je m&apos;appelle
-            </h1>
-            <p className="animate-charcter px-8 py-4 text-7xl"> Alaa Eddine</p>
-            <h1 className=" lg:pt-2 md:pt-8 text-3xl text-[#0172B1]">
-              Ingénieur Consultant
-            </h1>
-            <h2 className=" pb-12 lg:pb-8 text-3xl text-[#0172B1]">
-              Développeur Junior Full Stack React Javascript
-            </h2>
+          <div className="flex flex-col items-center pt-2 lg:pt-0">
+            <div className="box py-40">
+              <div className="card my-28">
+                <div className="imgBx m-0">
+                  <img src={alaaeddine} alt="images"></img>
+                </div>
+              </div>
+            </div>
 
-            <a
-              className=" inline-block rounded-3xl bg-[#0172b1] px-8 py-3 text-xl  font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
-              href="/download"
+            <h1 className=" pb-2 text-3xl md:pt-2 py-34">Salut, je suis</h1>
+            <p className="px-8 py-4 text-7xl"> Alaa Eddine</p>
+            <div className="bg-white h-64 my-24 text-center  text-black">
+              <h1 className=" text-3xl text-[#0172B1] contrast-200 md:pt-8 lg:pt-2">
+                Ingénieur Consultant
+              </h1>
+              <h2 className="  pb-12 text-3xl text-[#0172B1] contrast-200 lg:pb-8">
+                Développeur Junior Full Stack React Javascript
+              </h2>
+            </div>
+
+            <button
+              className={
+                " border-2 border-white border-solid py-3 px-6 rounded-full hover:text-[#0172B1] hover:bg-secondary"
+              }
             >
-              Télécharger CV
-            </a>
+              Télécharger mon CV
+            </button>
           </div>
         </div>
       </div>
