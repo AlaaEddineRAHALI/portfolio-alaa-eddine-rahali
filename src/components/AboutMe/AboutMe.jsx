@@ -5,7 +5,7 @@ import alaaeddine from "../../assets/images/alaaeddine.png";
 const AboutMe = () => {
   return (
     <section id="about" className=" px-5 lg:pt-[9%]">
-      <div className="py-[54%] sm:py-[30%] lg:py-[0%]">
+      <div className="py-[54%] sm:py-[30%] lg:py-[2.5%]">
         <div className="flex flex-col items-center ">
           <div className="card h-56 w-44 sm:h-80 sm:w-64">
             <div className="imgBx">
