@@ -21,7 +21,7 @@ function Experiences() {
     <>
       <section
         id="experiences"
-        className=" 4  pt-32 pb-15 bg-black  px-5 sm:px-20  "
+        className=" bg-black px-5 pt-32 sm:px-20 lg:pt-[9%] "
       >
         <p className=" title text-3xl font-bold sm:text-6xl">
           Ingénieur Consultant{" "}

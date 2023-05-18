@@ -4,14 +4,11 @@ import "./skillsStyles.css";
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className=" bg-black px-5  py-[15%] sm:px-2 md:py-[6%]  md:pb-[55%] lg:py-[04%] lg:pb-[09%]"
-    >
-      <div className="  text-white ">
-        <div className="mx-auto  max-w-screen-xl px-4  sm:px-6 sm:py-12 md:px-11 lg:px-8 ">
-          <div className=" text-left  ">
-            <h2 className="mt-6  text-3xl font-bold sm:pb-5 sm:text-6xl">
+    <section id="skills" className=" bg-black px-5 sm:px-20 lg:pt-[9%] ">
+      <div className="text-white ">
+        <div className="mx-auto max-w-screen-xl">
+          <div className="   ">
+            <h2 className="text-3xl font-bold sm:pb-5 sm:text-6xl">
               Compétences
             </h2>
 
@@ -24,7 +21,7 @@ const Skills = () => {
 
           <div className="mx-5 mt-8 grid grid-cols-1 gap-10 sm:mx-1 md:grid-cols-3 lg:grid-cols-3  ">
             <Tilt>
-              <div className="   block h-full rounded-xl bg-[#D9D9D9] mx-6  md:mx-0 p-8 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 w-5/6 md:w-full lg:w-full">
+              <div className=" mx-6 block h-full w-5/6 rounded-xl  bg-[#D9D9D9] p-8 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 md:w-full lg:w-full">
                 <h2 className="mt-4 text-center text-2xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                   Développement Backend
                 </h2>
