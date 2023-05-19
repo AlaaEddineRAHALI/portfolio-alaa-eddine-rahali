@@ -57,12 +57,9 @@ const Contact = () => {
 
   return (
     <>
-      <section
-        id="contact"
-        className="lg:pt-[9%]sm:px-20 section__contact px-5"
-      >
-        <section className=" flex flex-wrap lg:h-screen lg:items-center">
-          <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+      <section id="contact" className="section__contact px-5 ">
+        <div className=" flex flex-wrap justify-center pb-32 pt-36 sm:pb-48 lg:h-screen lg:items-center lg:pb-0 lg:pt-0">
+          <div className=" w-full px-4  sm:px-6  lg:w-1/2 lg:px-8 ">
             <div className="mx-auto max-w-lg text-center">
               <h1 className="text-3xl font-bold text-gray-500 sm:text-5xl">
                 Contactez moi !
@@ -135,14 +132,14 @@ const Contact = () => {
             </form>
           </div>
 
-          <div className="flex h-64 w-full items-center justify-center sm:h-96  lg:h-[100%] lg:w-3/6 lg:justify-normal">
+          <div className="flex items-center justify-center">
             <img
               alt="Welcome"
               src={contact}
-              className=" image inset-0 h-[90%] w-[70%]  object-cover md:h-[120%]  md:w-[80%] lg:h-4/6 lg:w-5/6 "
+              className=" image inset-0 mt-8 h-[300px]  w-[300px] object-cover md:h-[450px] md:w-[450px] lg:mt-0 lg:h-[450px] lg:w-[450px]"
             />
           </div>
-        </section>
+        </div>
       </section>
     </>
   );

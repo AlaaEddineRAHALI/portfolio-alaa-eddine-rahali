@@ -8,14 +8,14 @@ const Projects = () => {
   return (
     <>
       <section id="projects" className=" px-5 lg:pt-[9%]">
-        <div className="mx-auto max-w-screen-xl py-[15%] lg:py-[0%]">
-          <h1 className="pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0">
+        <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
+          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0">
             Réalisations
           </h1>
 
           <div className="flex flex-wrap gap-8 justify-center">
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full ">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -31,7 +31,7 @@ const Projects = () => {
                     <img
                       alt="Icone-Portoflio"
                       src={portofolio}
-                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
+                      className="aspect-square h-full w-full object-cover flex mx-4 p my-2 sm:mx-0 sm:mt-0 "
                     />
                   </div>
 
@@ -84,7 +84,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full ">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -114,8 +114,8 @@ const Projects = () => {
                         partager avec vous mes réalisations les plus récentes
                         ainsi que mes compétences dans différents domaines.vous
                         trouverez ici un aperçu de mon savoir-faire et de ma
-                        passion pour mon métier. N'hésitez pas à explorer mes
-                        projets.
+                        passion pour mon métier. N&apos;hésitez pas à explorer
+                        mes projets.
                       </p>
                       <h1 className="font-bold uppercase text-gray-900 pt-8">
                         technologies
@@ -140,7 +140,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -156,7 +156,7 @@ const Projects = () => {
                     <img
                       alt="Icone-Portoflio"
                       src={portofolio}
-                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
+                      className="aspect-square h-full w-full object-cover flex mx-4 sm:mx-7 my-2 sm:m-0"
                     />
                   </div>
 
