@@ -8,12 +8,14 @@ const Projects = () => {
   return (
     <>
       <section id="projects" className=" px-5 lg:pt-[9%]">
-        <div className="mx-auto max-w-screen-xl ">
-          <h1 className="pb-8 text-3xl font-bold sm:text-6xl ">Réalisations</h1>
+        <div className="mx-auto max-w-screen-xl py-[15%] lg:py-[0%]">
+          <h1 className="pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0">
+            Réalisations
+          </h1>
 
           <div className="flex flex-wrap gap-8 justify-center">
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[400px] h-full ">
+              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full ">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -82,7 +84,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[400px] h-full ">
+              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full ">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -119,7 +121,7 @@ const Projects = () => {
                         technologies
                       </h1>
                       <p className=" text-sm/relaxed text-gray-700 py-2 ">
-                        <span className=" text-[#FF5733] "># Tawlind</span>
+                        <span className=" text-[#008080]"># Tailwind</span>
                         <span className=" text-[#61DBFB] leading-6">
                           <br /># React
                         </span>
@@ -138,7 +140,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[400px] h-full ">
+              <article className="flex bg-white rounded-3xl w-[460px] h-full lg:w-[400px] lg:h-full">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -183,7 +185,7 @@ const Projects = () => {
                         </span>
                         <span className=" text-[#008080] leading-6">
                           <br />
-                          #Semantic UI
+                          #Tailwind
                         </span>
                         <span className=" text-[#215732] leading-6">
                           <br /># NodeJs
