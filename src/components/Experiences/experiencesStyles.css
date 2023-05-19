@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.title {
-  text-align: center;
-  margin-bottom: 1rem;
-}
 
 .icone-container {
   display: flex;
@@ -36,20 +32,21 @@
   font-weight: bold;
   color: #59b4e6;
 }
-.test {
+.ul_style {
   display: flex;
   flex-direction: column;
   text-align: left;
   gap: 0.4rem;
 }
-.test1 {
+.li_style {
   text-decoration: none;
   font-size: 0.8rem;
   color: black;
   cursor: none;
 }
-.test1:hover {
+.li_style:hover {
   text-decoration: none;
   font-size: 0.8rem;
   color: black;
+  cursor: auto;
 }

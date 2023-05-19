@@ -32,7 +32,7 @@ const AboutMe = () => {
 
           <a
             className={
-              "  mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-base  hover:text-black lg:mt-3 "
+              "  mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-xs sm:text-base  hover:text-black lg:mt-3 "
             }
             href="../cv_alaaeddine.pdf"
           >
