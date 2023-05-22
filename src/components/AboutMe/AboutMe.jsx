@@ -1,11 +1,12 @@
 import React from "react";
 import "./aboutMeStyles.css";
+
 import alaaeddine from "../../assets/images/alaaeddine.png";
 
 const AboutMe = () => {
   return (
     <section id="about" className=" px-5 lg:pt-[9%]">
-      <div className="pb-36 md:pb-28 pt-44 sm:pt-56 lg:pt-[2.5%] lg:pb-0">
+      <div className="pb-[45%] pt-[60%] md:pb-[35%] md:pt-[30%] lg:pb-[20%] lg:pt-[0%]">
         <div className="flex flex-col items-center ">
           <div className="card h-56 w-44 sm:h-80 sm:w-64">
             <div className="imgBx">

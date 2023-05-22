@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <section id="projects" className=" px-5 lg:pt-[9%]">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
-          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0">
+          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations
           </h1>
 
@@ -148,7 +148,7 @@ const Projects = () => {
                   >
                     <span>2023</span>
                     <span className="w-px flex-1 bg-gray-900/10"></span>
-                    <span>DEC 11</span>
+                    <span>Novem 11</span>
                   </time>
                 </div>
                 <div className="flex flex-wrap ">
@@ -156,7 +156,7 @@ const Projects = () => {
                     <img
                       alt="Icone-Portoflio"
                       src={portofolio}
-                      className="aspect-square h-full w-full object-cover flex mx-4 sm:mx-7 my-2 sm:m-0"
+                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
 
