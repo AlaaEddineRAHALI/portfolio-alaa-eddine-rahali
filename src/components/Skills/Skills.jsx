@@ -6,8 +6,8 @@ const Skills = () => {
   return (
     <section id="skills" className="px-5 lg:pt-[9%] ">
       <div className=" flex justify-center ">
-        <div className="mx-6 max-w-screen-xl pb-[28%] pt-[24%] md:pt-[28%] lg:pt-[0%] lg:pb-[0%]">
-          <div className="px-8">
+        <div className="mx-6 max-w-screen-xl pt-[24%] md:py-[22%] md:pt-[30%] lg:py-[8%]">
+          <div className="px-8 lg:px-0">
             <h1 className="text-3xl font-bold text-white sm:text-6xl lg:text-center">
               Compétences
             </h1>
@@ -18,14 +18,14 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className=" mx-22 flex flex-wrap justify-center gap-8 pt-8 lg:mx-40 lg:gap-8">
+          <div className="mx-22 flex flex-wrap justify-center gap-8 pt-8 lg:mx-0 lg:gap-4">
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl  bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Développement Backend
+                  Back-end
                 </h2>
 
-                <ol className="skills mt-2 text-base text-[#554A4A]">
+                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
                   <li className="skills py-1">NodeJS</li>
                   <li className="skills py-1">Express</li>
                   <li className="skills py-1">Insomnia</li>
@@ -35,12 +35,12 @@ const Skills = () => {
               </div>
             </Tilt>
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl  bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Développement FrontEnd
+                  Front-end
                 </h2>
 
-                <ol className="skills mt-2 text-base text-[#554A4A]">
+                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
                   <li className="skills py-1">HTML5</li>
                   <li className="skills py-1">CSS3</li>
                   <li className="skills py-1">Tailwind</li>
@@ -50,12 +50,12 @@ const Skills = () => {
               </div>
             </Tilt>
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl  bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Environnement & Systèmes d&apos;exploitation
+                  IDE & Systèmes
                 </h2>
 
-                <ol className="skills mt-2 text-base text-[#554A4A]">
+                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
                   <li className="skills py-1">VScode</li>
                   <li className="skills py-1">GIT</li>
                   <li className="skills py-1">Ubuntu</li>
@@ -69,10 +69,10 @@ const Skills = () => {
                   Gestion de projet
                 </h2>
 
-                <ol className="skills mt-2 text-base text-[#554A4A]">
+                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
                   <li className="skills py-1">Méthode Agile Scrum</li>
-                  <li className="skills py-1">JIRA</li>
-                  <li className="skills py-1">GANTT</li>
+                  <li className="skills py-1">Jira</li>
+                  <li className="skills py-1">Gantt</li>
                 </ol>
               </div>
             </Tilt>

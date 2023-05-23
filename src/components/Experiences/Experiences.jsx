@@ -8,9 +8,7 @@ import iss from "../../assets/images/icone/iss.png";
 import insa from "../../assets/images/icone/insa.png";
 import iut_epinal from "../../assets/images/icone/iut_epinal.png";
 import fes from "../../assets/images/icone/fes.png";
-
 import "./experiencesStyles.css";
-
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -37,11 +35,11 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Obtention du Titre Professionnel Niveau 5 Développeur Web et Web
                 Mobile.
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 Ministère du travail du plein d’emploi et de l’insertion
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -58,7 +56,7 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Formation de reconversion de 6 mois Développeur Web FullStack
                 Javascript / React.
               </h3>
@@ -77,12 +75,10 @@ function Experiences() {
                   • 1 mois de spécialisation en ReactJs.
                 </li>
                 <li className="li_style">
-                  • 1 mois de projet professionnalisant.
+                  • 1 mois de projet professionnalisant: Application Actiively
                 </li>
               </ul>
-              <p className="container-title1">
-                Projet de fin de formation O&apos;clock:
-              </p>
+              <p className="container-title1">Application Actiively:</p>
 
               <ul className="ul_style">
                 <li className="li_style">
@@ -117,10 +113,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Consultant SI
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 Avenir Conseil Formation (Groupe ALTEN) pour le client RENAULT
               </h3>
 
@@ -173,7 +169,7 @@ function Experiences() {
                 </li>
                 <li className="li_style">
                   • Participer aux suivis des releases (Passage au Control
-                  TOWER, Mise en production (MEP), ...).
+                  TOWER, Mise en production (MEP))
                 </li>
               </ul>
               <p className="container-title1">
@@ -199,10 +195,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6 ">
                 Formation de deux jours sur le travail en équipe AGILE.
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 SQLI I Instituit
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -219,10 +215,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Consultant SI
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 Avenir Conseil Formation Pour le client Renault
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -270,10 +266,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Ingénieur en Méthodes Logistiques et Amélioration Continue
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 ADS Laminaire
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -368,10 +364,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Planificateur
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 ISS France
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -406,11 +402,11 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Ingénieur en Génie Industriel Option Logistique & Production
                 Industrielle.
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1 ">
                 INSA Hauts de France (Ex ENSIAME)
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -433,11 +429,11 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Licence Professionnelle Automatique et Informatique Industrielle
                 Option Maintenance & Contrôles Non Destructifs
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 IUT Hubert Curien
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
@@ -456,10 +452,10 @@ function Experiences() {
                 </div>
               }
             >
-              <h3 className="vertical-timeline-element-title container-title">
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 DUT en Maintenance Industrielle
               </h3>
-              <h3 className="vertical-timeline-element-title container-title1">
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
                 IUT de FES
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">

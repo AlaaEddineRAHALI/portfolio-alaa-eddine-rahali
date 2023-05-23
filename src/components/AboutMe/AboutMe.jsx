@@ -1,7 +1,6 @@
 import React from "react";
+import alaaeddine from "../../assets/images/alaaeddine.jpg";
 import "./aboutMeStyles.css";
-
-import alaaeddine from "../../assets/images/alaaeddine.png";
 
 const AboutMe = () => {
   return (
@@ -21,21 +20,19 @@ const AboutMe = () => {
             </span>
           </h1>
 
-          <div className=" my-2  h-full rounded-md bg-white px-8 py-4 text-center opacity-[50%] lg:my-4">
+          <div className=" my-2 h-full rounded-md bg-white px-8 py-4 text-center opacity-[50%] lg:my-4">
             <p className=" text-base text-[#0172B1] contrast-200 sm:text-3xl ">
-              Ingénieur Consultant
-              <span className=" text- text-[#0172B1] contrast-200 sm:text-3xl ">
-                <br />
-                Développeur Junior Full stack JS - UI/UX
-              </span>
+              Ingénieur Consultant <br />
+              Développeur Junior Full stack JS - UI/UX
             </p>
           </div>
 
           <a
             className={
-              "  mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-xs sm:text-base  hover:text-black lg:mt-3 "
+              " mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-xs hover:text-black sm:text-base lg:mt-3 "
             }
             href="../cv_alaaeddine.pdf"
+            target="_blank"
           >
             Télécharger mon CV
           </a>

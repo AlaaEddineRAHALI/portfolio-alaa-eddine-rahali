@@ -41,9 +41,9 @@ const Projects = () => {
                         Actiively
                       </h1>
                       <p className="mt-2 text-sm/relaxed text-gray-700 ">
-                        L&apos;application Actively réunit toutes les activités
+                        L&apos;application Actiively réunit toutes les activités
                         disponibles dans une zone géographique donnée. Elle
-                        offre aux organismes la possibilité de présenter leurs
+                        offre aux organismes la possibilité de proposer leurs
                         activités tandis que les utilisateurs peuvent aisément
                         trouver une activité correspondant à leurs critères de
                         recherche.
