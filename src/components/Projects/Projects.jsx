@@ -2,7 +2,9 @@
 import React from "react";
 import "./projectsStyles.css";
 import Tilt from "react-parallax-tilt";
-import portofolio from "../../assets/images/icone/portofolio.png";
+import test from "../../assets/images/icone/test.png";
+import portfolio from "../../assets/images/icone/portfolio.jpg";
+import syndic from "../../assets/images/OSyndic.jpg";
 
 const Projects = () => {
   return (
@@ -30,7 +32,7 @@ const Projects = () => {
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
-                      src={portofolio}
+                      src={test}
                       className="aspect-square h-full w-full object-cover flex mx-4 p my-2 sm:mx-0 sm:mt-0 "
                     />
                   </div>
@@ -99,7 +101,7 @@ const Projects = () => {
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
-                      src={portofolio}
+                      src={portfolio}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
@@ -155,7 +157,7 @@ const Projects = () => {
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
-                      src={portofolio}
+                      src={syndic}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
