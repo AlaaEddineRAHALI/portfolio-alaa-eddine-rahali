@@ -11,7 +11,7 @@ const Projects = () => {
     <>
       <section id="projects" className=" px-5 lg:pt-[9%] ">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
-          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold xl:text-6xl px-8 lg:px-0 lg:text-center">
+          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold lg:text-4xl xl:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations
           </h1>
 
