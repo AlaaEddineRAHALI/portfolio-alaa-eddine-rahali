@@ -42,7 +42,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         Actiively
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px] ">
+                      <p className="mt-2 text-sm/relaxed text-gray-700  ">
                         L&apos;application Actiively réunit toutes les activités
                         disponibles dans une zone géographique donnée. Elle
                         offre aux organismes la possibilité de proposer leurs
@@ -111,7 +111,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         Portfolio
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px]">
+                      <p className="mt-2 text-sm/relaxed text-gray-700 ">
                         À travers les pages de mon portfolio, je souhaite
                         partager avec vous mes réalisations les plus récentes
                         ainsi que mes compétences dans différents domaines.vous
@@ -167,7 +167,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         O&apos;Syndic
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px]">
+                      <p className="mt-2 text-sm/relaxed text-gray-700 ">
                         O&apos;Syndic est un outil intelligent pour la gestion
                         des copropriétés. Cette application offre aux syndics
                         une optimisation de leurs tâches quotidiennes, dans
