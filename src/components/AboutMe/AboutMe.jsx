@@ -5,7 +5,7 @@ import "./aboutMeStyles.css";
 const AboutMe = () => {
   return (
     <section id="about" className="  px-5 lg:pt-[9%] ">
-      <div className="pb-[45%] pt-[40%] md:pb-[35%] md:pt-[30%] lg:pb-[20%] lg:pt-[0%]">
+      <div className="pb-[45%] pt-20  md:pb-[35%] md:pt-[30%] lg:pb-[20%] lg:pt-[0%]">
         <div className="flex flex-col items-center ">
           <div className="card h-56 w-44 sm:h-80 sm:w-64">
             <div className="imgBx">
