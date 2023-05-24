@@ -25,7 +25,7 @@ const Nav = () => {
             />
           </a>
         </div>
-        <nav className="nav__container__actions flex flex-row-reverse items-center sm:flex-row lg:mr-72">
+        <nav className="nav__container__actions flex flex-row-reverse items-center md:flex-row">
           <ul
             className={`appheader  ${
               isBurgerOpen ? "appheader-navbar-open" : "appheader-navbar-closed"
@@ -112,7 +112,7 @@ const Nav = () => {
             <img
               alt="Man"
               src={linkedin}
-              className="mx-1 h-9 w-9 rounded-full object-cover sm:mr-5"
+              className="mx-1 h-9 w-9 rounded-full object-cover lg:mr-5"
             />
           </a>
         </nav>

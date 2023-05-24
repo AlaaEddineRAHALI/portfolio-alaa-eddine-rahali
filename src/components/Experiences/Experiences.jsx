@@ -196,7 +196,7 @@ function Experiences() {
               }
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6 ">
-                Formation de deux jours sur le travail en équipe AGILE.
+                Formation de deux jours sur le travail en équipe AGILE
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1">
                 SQLI I Instituit

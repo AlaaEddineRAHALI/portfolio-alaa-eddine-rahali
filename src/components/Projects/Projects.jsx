@@ -2,7 +2,7 @@
 import React from "react";
 import "./projectsStyles.css";
 import Tilt from "react-parallax-tilt";
-import test from "../../assets/images/icone/test.png";
+import test from "../../assets/images/11.png";
 import portfolio from "../../assets/images/icone/portfolio.jpg";
 import syndic from "../../assets/images/OSyndic.jpg";
 
@@ -28,12 +28,12 @@ const Projects = () => {
                     <span>Nov 11</span>
                   </time>
                 </div>
-                <div className="flex flex-wrap ">
+                <div className="flex flex-wrap  ">
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
                       src={test}
-                      className="aspect-square h-full w-full object-cover flex mx-4 p my-2 sm:mx-0 sm:mt-0 "
+                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
 
