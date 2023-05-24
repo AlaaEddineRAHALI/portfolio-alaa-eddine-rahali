@@ -60,21 +60,21 @@ section {
 }
 
 #about {
-  height: auto;
+  height: 100vh;
   color: white;
 }
 
 #experiences {
-  height: auto;
+  height: 100vh;
   color: white;
 }
 
 #contact {
-  height: auto;
+  height: 100vh;
 }
 
 #projects {
-  height: auto;
+  height: 100vh;
   color: white;
 }
 
