@@ -11,13 +11,13 @@ const Projects = () => {
     <>
       <section id="projects" className=" px-5 lg:pt-[9%] ">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
-          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold xl:text-6xl px-8 lg:px-0 lg:text-center">
+          <h1 className=" pb-2 sm:pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations
           </h1>
 
           <div className="flex flex-wrap gap-8 justify-center ">
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -42,7 +42,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         Actiively
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[7px] 2xl:text-sm">
+                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px] ">
                         L&apos;application Actiively réunit toutes les activités
                         disponibles dans une zone géographique donnée. Elle
                         offre aux organismes la possibilité de proposer leurs
@@ -53,7 +53,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900 pt-8">
                         technologies
                       </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 xl:text-[7px] 2xl:text-sm">
+                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
                         <span className=" text-[#FF5733]"># HTML</span>
                         <span className=" text-[#CD6799] leading-6">
                           <br /># SCSS
@@ -86,7 +86,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -111,7 +111,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         Portfolio
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[7px] 2xl:text-sm">
+                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px]">
                         À travers les pages de mon portfolio, je souhaite
                         partager avec vous mes réalisations les plus récentes
                         ainsi que mes compétences dans différents domaines.vous
@@ -122,7 +122,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900 pt-8">
                         technologies
                       </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 xl:text-[7px] 2xl:text-sm">
+                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
                         <span className=" text-[#008080]"># Tailwind</span>
                         <span className=" text-[#61DBFB] leading-6">
                           <br /># React
@@ -142,7 +142,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -167,7 +167,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900">
                         O&apos;Syndic
                       </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[7px] 2xl:text-sm">
+                      <p className="mt-2 text-sm/relaxed text-gray-700 xl:text-[10px]">
                         O&apos;Syndic est un outil intelligent pour la gestion
                         des copropriétés. Cette application offre aux syndics
                         une optimisation de leurs tâches quotidiennes, dans
@@ -180,7 +180,7 @@ const Projects = () => {
                       <h1 className="font-bold uppercase text-gray-900 pt-8">
                         technologies
                       </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 xl:text-[7px] 2xl:text-sm ">
+                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
                         <span className=" text-[#FF5733]"># HTML</span>
                         <span className=" text-[#CD6799] leading-6">
                           <br /># SCSS
@@ -189,7 +189,7 @@ const Projects = () => {
                           <br />
                           #Tailwind
                         </span>
-                        <span className=" text-[#215732] leading-6 ">
+                        <span className=" text-[#215732] leading-6">
                           <br /># NodeJs
                         </span>
                         <span className=" text-blue-900 leading-6">
