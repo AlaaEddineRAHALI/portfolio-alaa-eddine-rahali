@@ -31,8 +31,9 @@ const AboutMe = () => {
             className={
               " mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-xs hover:text-black sm:text-base lg:mt-3 "
             }
-            href="/cv_alaaeddine.pdf"
+            href="../../../cv_alaaeddine.pdf"
             target="_blank"
+            download
           >
             Télécharger mon CV
           </a>
