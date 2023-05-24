@@ -7,7 +7,7 @@ const Footer = () => {
   const year = currentDate.getFullYear();
   return (
     <div>
-      <footer aria-label="Site Footer" className="bg-white px-5 sm:px-20">
+      <footer aria-label="Site Footer" className="bg-white px-5 sm:px-20 ">
         <div className="mx-auto p-5 sm:px-6 lg:px-8">
           <div className="flex justify-center">
             <a>

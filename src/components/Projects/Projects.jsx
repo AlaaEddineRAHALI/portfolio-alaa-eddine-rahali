@@ -9,7 +9,7 @@ import syndic from "../../assets/images/OSyndic.jpg";
 const Projects = () => {
   return (
     <>
-      <section id="projects" className=" px-5 lg:pt-[9%]">
+      <section id="projects" className=" px-5 lg:pt-[9%] ">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
           <h1 className=" pb-2 sm:pb-8 text-3xl font-bold sm:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations

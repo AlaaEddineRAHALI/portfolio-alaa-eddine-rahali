@@ -14,20 +14,20 @@ const Nav = () => {
   };
 
   return (
-    <div className="nav__container  ">
-      <header className="nav h-[60px] sm:h-[70px]">
+    <div className="nav__container ">
+      <header className="nav h-[60px] sm:h-[70px] ">
         <div className="flex justify-center">
           <a>
             <img
               src={logoProfil}
               alt="logo"
-              className="ml-4 mt-1 h-12 w-12 object-contain sm:ml-12 sm:h-16 sm:w-16 lg:ml-80"
+              className="ml-4 mt-1 h-12 w-12 object-contain sm:ml-12 sm:h-16 sm:w-16 "
             />
           </a>
         </div>
-        <nav className="nav__container__actions flex flex-row-reverse items-center md:flex-row">
+        <nav className="nav__container__actions  flex flex-row-reverse items-center md:flex-row">
           <ul
-            className={`appheader  ${
+            className={`appheader gap-6 ${
               isBurgerOpen ? "appheader-navbar-open" : "appheader-navbar-closed"
             }`}
           >
@@ -93,7 +93,7 @@ const Nav = () => {
           </button>
           <a
             href="https://github.com/AlaaEddineRAHALI"
-            className="block shrink-0"
+            className="block shrink-0 p-1"
             target="_blank"
             rel="noreferrer"
           >
@@ -106,7 +106,7 @@ const Nav = () => {
           <a
             href="https://www.linkedin.com/in/alaa-eddine-rahali/"
             target="_blank"
-            className="block shrink-0"
+            className="block shrink-0 p-1"
             rel="noreferrer"
           >
             <img

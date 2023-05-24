@@ -17,7 +17,7 @@ import "react-vertical-timeline-component/style.min.css";
 function Experiences() {
   return (
     <>
-      <section id="experiences" className=" px-5 lg:pt-[9%] ">
+      <section id="experiences" className=" px-5 lg:pt-[9%]  ">
         <div className="px-6 pt-24 md:pt-32 lg:pt-[0%]">
           <p className=" p-2 text-left text-3xl font-bold sm:pb-4 sm:text-6xl lg:text-center">
             Ingénieur Consultant{" "}
