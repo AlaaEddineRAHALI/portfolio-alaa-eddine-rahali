@@ -15,9 +15,9 @@ const Projects = () => {
             Réalisations
           </h1>
 
-          <div className="flex flex-wrap gap-8 justify-center">
+          <div className="flex flex-wrap gap-8 justify-center ">
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[300px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -86,7 +86,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[300px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
@@ -142,7 +142,7 @@ const Projects = () => {
               </article>
             </Tilt>
             <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[300px] 2xl:w-[400px]">
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[347px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                   <time
                     dateTime="2022-10-10"
