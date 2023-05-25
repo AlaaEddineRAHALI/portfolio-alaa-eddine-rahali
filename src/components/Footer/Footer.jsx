@@ -1,10 +1,12 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
+
 import logo_website from "../../assets/images/logo_website.png";
 
 const Footer = () => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
+
   return (
     <div>
       <footer aria-label="Site Footer" className="bg-white px-5 sm:px-20 ">
@@ -13,6 +15,10 @@ const Footer = () => {
             <a>
               <img
                 src={logo_website}
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "about";
+                }}
                 alt="logo"
                 className="h-11 w-11 object-contain "
               />

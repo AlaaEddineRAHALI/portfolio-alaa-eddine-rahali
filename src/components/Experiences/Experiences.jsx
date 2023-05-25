@@ -404,7 +404,7 @@ function Experiences() {
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Ingénieur en Génie Industriel Option Logistique & Production
-                Industrielle.
+                Industrielle
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1 ">
                 INSA Hauts de France (Ex ENSIAME)
