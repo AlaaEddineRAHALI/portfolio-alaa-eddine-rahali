@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section id="skills" className="px-5 lg:pt-[9%] ">
       <div className=" flex justify-center ">
-        <div className="mx-6 max-w-screen-xl pt-[24%] md:py-[22%] md:pt-[30%] lg:py-[3%] 2xl:py-[8%]">
+        <div className="mx-6 max-w-screen-xl pt-[24%] md:py-[22%] md:pt-[30%] lg:py-[2%] 2xl:py-[8%]">
           <div className="px-8 lg:px-0">
             <h1 className="text-3xl font-bold text-white lg:text-center xl:text-4xl 2xl:text-6xl">
               Compétences
