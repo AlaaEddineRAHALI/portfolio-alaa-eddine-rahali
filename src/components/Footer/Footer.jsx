@@ -1,6 +1,6 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
-import logo from "../../assets/images/logo-ae.png";
+import logo_website from "../../assets/images/logo_website.png";
 
 const Footer = () => {
   const currentDate = new Date();
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex justify-center">
             <a>
               <img
-                src={logo}
+                src={logo_website}
                 alt="logo"
                 className="h-11 w-11 object-contain "
               />

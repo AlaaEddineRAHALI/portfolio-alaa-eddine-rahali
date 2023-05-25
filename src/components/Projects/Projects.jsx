@@ -1,21 +1,21 @@
 /* eslint-disable tailwindcss/classnames-order */
 import React from "react";
-import "./projectsStyles.css";
 import Tilt from "react-parallax-tilt";
-import actiively_profil from "../../assets/images/11.png";
-import portfolio from "../../assets/images/icone/portfolio.jpg";
-import syndic from "../../assets/images/OSyndic.jpg";
+import actiively_img from "../../assets/images/actiively_img.png";
+import portfolio_img from "../../assets/images/portfolio_img.jpg";
+import syndic_img from "../../assets/images/syndic_img.jpg";
+import "./projectsStyles.css";
 
 const Projects = () => {
   return (
     <>
-      <section id="projects" className=" px-5 lg:pt-[6%]  2xl:pt-[9%]">
+      <section id="projects" className=" px-5 lg:pt-[6%] 2xl:pt-[9%]">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
-          <h1 className=" pb-2 sm:pb-4 2xl:pb-8 text-3xl font-bold xl:text-4xl 2xl:text-6xl px-8 lg:px-0 lg:text-center">
+          <h1 className="pb-2 sm:pb-4 2xl:pb-8 text-3xl font-bold xl:text-4xl 2xl:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations
           </h1>
 
-          <div className="flex flex-wrap gap-8 justify-center ">
+          <div className="flex flex-wrap gap-8 justify-center">
             <Tilt>
               <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
@@ -31,8 +31,8 @@ const Projects = () => {
                 <div className="flex flex-wrap  ">
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
-                      alt="Icone-Portoflio"
-                      src={actiively_profil}
+                      alt="Icone-actiively"
+                      src={actiively_img}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
@@ -75,7 +75,9 @@ const Projects = () => {
                     </div>
                     <div className="flex ">
                       <a
-                        href="#"
+                        href="https://alaa-eddine-rahali-portfolio.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
                         className="block bg-[#0172B1] py-3 pl-2  text-xs font-medium uppercase text-white transition hover:text-black  w-3/4"
                       >
                         Démo Actiively
@@ -101,7 +103,7 @@ const Projects = () => {
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
-                      src={portfolio}
+                      src={portfolio_img}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
@@ -131,8 +133,10 @@ const Projects = () => {
                     </div>
                     <div className="flex ">
                       <a
-                        href="#"
+                        href="https://alaa-eddine-rahali-portfolio.netlify.app/"
+                        target="_blank"
                         className="block bg-[#0172B1] py-3 pl-2  text-xs font-medium uppercase text-white transition hover:text-black  w-3/4"
+                        rel="noreferrer"
                       >
                         Démo PortofliO
                       </a>
@@ -156,8 +160,8 @@ const Projects = () => {
                 <div className="flex flex-wrap ">
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
-                      alt="Icone-Portoflio"
-                      src={syndic}
+                      alt="Icone-OSyndic"
+                      src={syndic_img}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>

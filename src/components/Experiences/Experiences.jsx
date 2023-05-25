@@ -37,7 +37,7 @@ function Experiences() {
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Obtention du Titre Professionnel Niveau 5 Développeur Web et Web
-                Mobile.
+                Mobile
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1">
                 Ministère du travail du plein d’emploi et de l’insertion
@@ -58,7 +58,7 @@ function Experiences() {
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
                 Formation de reconversion de 6 mois Développeur Web FullStack
-                Javascript / React.
+                Javascript / React
               </h3>
               <h3 className="vertical-timeline-element-title container-title1">
                 Ecole O&apos;clock
@@ -75,7 +75,7 @@ function Experiences() {
                   • 1 mois de spécialisation en ReactJs.
                 </li>
                 <li className="li_style">
-                  • 1 mois de projet professionnalisant: Application Actiively
+                  • 1 mois de projet professionnalisant: Application Actiively.
                 </li>
               </ul>
               <p className="container-title1">Application Actiively:</p>
@@ -169,7 +169,7 @@ function Experiences() {
                 </li>
                 <li className="li_style">
                   • Participer aux suivis des releases (Passage au Control
-                  TOWER, Mise en production (MEP))
+                  TOWER, Mise en production (MEP)).
                 </li>
               </ul>
               <p className="container-title1">

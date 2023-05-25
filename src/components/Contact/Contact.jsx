@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-
 import contact from "../../assets/images/contact.png";
 import emailjs from "@emailjs/browser";
 import "./contactStyles.css";
@@ -58,7 +57,7 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="section__contact px-5">
-        <div className=" flex flex-wrap justify-center pb-32 pt-20 sm:pb-48 lg:h-screen lg:items-center lg:pt-[6%] lg:py-0 2xl:py-0 2xl:pt-[5%]">
+        <div className=" flex flex-wrap justify-center pb-32 pt-20 sm:pb-48 lg:h-screen lg:items-center lg:py-0 lg:pt-[6%] 2xl:py-0 2xl:pt-[5%]">
           <div className=" w-full px-4  sm:px-6  lg:w-1/2 lg:px-8 ">
             <div className="mx-auto max-w-lg text-center">
               <h1 className="text-3xl font-bold text-gray-500 sm:text-5xl">
@@ -124,7 +123,7 @@ const Contact = () => {
               <div className="flex items-center justify-between">
                 <button
                   type="submit"
-                  className="inline-block rounded-full bg-[#0172B1] px-5 py-3 font-medium text-base  text-white  hover:text-black "
+                  className="inline-block rounded-full bg-[#0172B1] px-5 py-3 text-base font-medium  text-white  hover:text-black "
                 >
                   {loading ? "Envoie en cours..." : "Envoyez"}
                 </button>

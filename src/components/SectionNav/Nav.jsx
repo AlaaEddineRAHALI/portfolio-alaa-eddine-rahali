@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Burger from "../Burger/Burger";
-import logoProfil from "../../assets/images/logo-ae.png";
-import linkedin from "../../assets/images/linkedin-logo.png";
-import github from "../../assets/images/github-logo.png";
+import logo_website from "../../assets/images/logo_website.png";
+import linkedin from "../../assets/images/icone/linkedin-logo.png";
+import github from "../../assets/images/icone/github-logo.png";
 import "./sectionStyles.css";
 
 const Nav = () => {
@@ -19,7 +19,7 @@ const Nav = () => {
         <div className="flex justify-center">
           <a>
             <img
-              src={logoProfil}
+              src={logo_website}
               alt="logo"
               className="ml-4 mt-1 h-12 w-12 object-contain sm:ml-12 sm:h-16 sm:w-16 "
             />

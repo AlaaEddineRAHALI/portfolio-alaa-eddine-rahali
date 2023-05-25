@@ -20,7 +20,7 @@ const Skills = () => {
 
           <div className="mx-22 flex flex-wrap justify-center gap-8 pt-8 lg:mx-0 lg:gap-4">
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] lg:w-[220px] 2xl:w-[300px]  rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                   Back-end
                 </h2>
@@ -35,7 +35,7 @@ const Skills = () => {
               </div>
             </Tilt>
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] lg:w-[220px] 2xl:w-[300px]  rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                   Front-end
                 </h2>
@@ -50,7 +50,7 @@ const Skills = () => {
               </div>
             </Tilt>
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] lg:w-[220px] 2xl:w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10  hover:shadow-gray-200/10 md:mx-0 ">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                   IDE & Systèmes
                 </h2>
@@ -64,7 +64,7 @@ const Skills = () => {
               </div>
             </Tilt>
             <Tilt>
-              <div className="mx-6 block h-full w-[300px] lg:w-[220px] 2xl:w-[300px]  rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition  hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0">
+              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10  md:mx-0 lg:w-[220px] 2xl:w-[300px]">
                 <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
                   Gestion de projet
                 </h2>

@@ -1,15 +1,15 @@
 import React from "react";
-import alaaeddine from "../../assets/images/alaaeddine.jpg";
+import alaaeddine_profil from "../../assets/images/alaaeddine_profil.jpg";
 import "./aboutMeStyles.css";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="  px-5 lg:pt-[6%] 2xl:pt-[9%] ">
-      <div className="pb-[45%] pt-20  md:pb-[35%] md:pt-[30%] lg:pb-[23%] lg:pt-[0%]">
+    <section id="about" className="px-5 lg:pt-[6%] 2xl:pt-[9%] ">
+      <div className="pb-[60%] pt-20 md:pb-[35%] md:pt-[30%] lg:pb-[23%] lg:pt-[0%]">
         <div className="flex flex-col items-center ">
           <div className="card h-56 w-44 md:h-80 md:w-64 xl:h-48 xl:w-36 2xl:h-80 2xl:w-64">
             <div className="imgBx">
-              <img src={alaaeddine} alt="image_profil"></img>
+              <img src={alaaeddine_profil} alt="image_profil"></img>
             </div>
           </div>
           <h1 className="mb-2 mt-8 text-center text-xl md:text-2xl 2xl:text-3xl">
