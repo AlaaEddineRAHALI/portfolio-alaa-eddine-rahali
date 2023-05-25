@@ -2,14 +2,14 @@
 import React from "react";
 import "./projectsStyles.css";
 import Tilt from "react-parallax-tilt";
-import test from "../../assets/images/11.png";
+import actiively_profil from "../../assets/images/11.png";
 import portfolio from "../../assets/images/icone/portfolio.jpg";
 import syndic from "../../assets/images/OSyndic.jpg";
 
 const Projects = () => {
   return (
     <>
-      <section id="projects" className=" px-5 lg:pt-[9%] ">
+      <section id="projects" className=" px-5 lg:pt-[7%]  2xl:pt-[9%]">
         <div className="mx-auto max-w-screen-xl pt-[24%] md:pt-[15%] lg:pt-[0%]">
           <h1 className=" pb-2 sm:pb-4 2xl:pb-8 text-3xl font-bold xl:text-4xl 2xl:text-6xl px-8 lg:px-0 lg:text-center">
             Réalisations
@@ -32,7 +32,7 @@ const Projects = () => {
                   <div className="w-3/4 sm:block sm:basis-40">
                     <img
                       alt="Icone-Portoflio"
-                      src={test}
+                      src={actiively_profil}
                       className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
                     />
                   </div>
