@@ -19,7 +19,7 @@ function Experiences() {
     <>
       <section id="experiences" className=" px-5 lg:pt-[9%]  ">
         <div className="px-6 pt-24 md:pt-32 lg:pt-[0%]">
-          <p className=" p-2 text-left text-3xl font-bold sm:pb-4 sm:text-6xl lg:text-center">
+          <p className=" p-2 text-left text-3xl font-bold sm:pb-4 lg:text-center xl:text-4xl 2xl:text-6xl">
             Ingénieur Consultant{" "}
           </p>
           <VerticalTimeline>
