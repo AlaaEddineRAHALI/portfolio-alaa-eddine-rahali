@@ -58,7 +58,7 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="section__contact px-5">
-        <div className=" flex flex-wrap justify-center pb-32 pt-20 sm:pb-48 lg:h-screen lg:items-center lg:pt-[0%] lg:py-[7%] 2xl:py-0 2xl:pt-[5%]">
+        <div className=" flex flex-wrap justify-center pb-32 pt-20 sm:pb-48 lg:h-screen lg:items-center lg:pt-[7%] lg:py-0 2xl:py-0 2xl:pt-[5%]">
           <div className=" w-full px-4  sm:px-6  lg:w-1/2 lg:px-8 ">
             <div className="mx-auto max-w-lg text-center">
               <h1 className="text-3xl font-bold text-gray-500 sm:text-5xl">
