@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section id="about" className="  px-5 lg:pt-[9%] ">
       <div className="pb-[45%] pt-20  md:pb-[35%] md:pt-[30%] lg:pb-[20%] lg:pt-[0%]">
         <div className="flex flex-col items-center ">
-          <div className="card h-56 w-44 sm:h-80 sm:w-64">
+          <div className="card h-56 w-44 md:h-80 md:w-64 xl:h-56 xl:w-44 2xl:h-80 2xl:w-64">
             <div className="imgBx">
               <img src={alaaeddine} alt="image_profil"></img>
             </div>
