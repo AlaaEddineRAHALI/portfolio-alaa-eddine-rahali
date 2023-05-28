@@ -69,7 +69,7 @@ function Experiences() {
 
               <ul className="ul_style">
                 <li className="li_style">
-                  • 3 mois de socle (HTML5, CSS3, Javascript, NodeJs, PSQL).
+                  • 4 mois de socle (HTML5, CSS3, Javascript, NodeJs, PSQL).
                 </li>
                 <li className="li_style">
                   • 1 mois de spécialisation en ReactJs.

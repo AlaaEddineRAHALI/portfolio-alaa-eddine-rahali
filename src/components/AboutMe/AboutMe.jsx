@@ -23,7 +23,7 @@ const AboutMe = () => {
           <div className=" my-2 h-full rounded-md bg-white px-8 py-4 text-center opacity-[50%] lg:my-4">
             <p className=" text-base text-[#0172B1] contrast-200 md:text-3xl lg:text-2xl 2xl:text-3xl ">
               Ingénieur Consultant <br />
-              Développeur Junior Full stack JS - UI/UX
+              Développeur Junior Full stack JS / React - UI/UX
             </p>
           </div>
 
