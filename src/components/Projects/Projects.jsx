@@ -16,6 +16,7 @@ const Projects = () => {
           </h1>
 
           <div className="flex flex-wrap gap-8 justify-center">
+            {/*Tilt's animation for one project*/}
             <Tilt>
               <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">

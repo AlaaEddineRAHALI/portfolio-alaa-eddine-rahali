@@ -4,6 +4,7 @@ import React from "react";
 import logo_website from "../../assets/images/logo_website.png";
 
 const Footer = () => {
+  /*function to manage current Date*/
   const currentDate = new Date();
   const year = currentDate.getFullYear();
 
@@ -13,6 +14,7 @@ const Footer = () => {
         <div className="mx-auto p-5 sm:px-6 lg:px-8">
           <div className="flex justify-center">
             <a>
+              {/*Redirection to home page on click on lgoo_website*/}
               <img
                 src={logo_website}
                 onClick={(e) => {

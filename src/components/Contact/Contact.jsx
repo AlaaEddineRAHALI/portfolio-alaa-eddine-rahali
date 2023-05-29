@@ -5,6 +5,7 @@ import "./contactStyles.css";
 
 const Contact = () => {
   const formRef = useRef();
+  //Hooks created to manage form's state:
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,6 +20,7 @@ const Contact = () => {
       [name]: value,
     });
   };
+  // Alert modal to confirm send message, we use EmailJS:
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);

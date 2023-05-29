@@ -23,6 +23,7 @@ function Experiences() {
             Ingénieur Consultant{" "}
           </p>
           <VerticalTimeline>
+            {/*To manage one experience's block*/}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#9D9D9", color: "#fff" }}

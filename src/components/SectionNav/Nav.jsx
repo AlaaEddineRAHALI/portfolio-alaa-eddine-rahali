@@ -62,7 +62,7 @@ const Nav = () => {
                 spy
                 to="experiences"
               >
-                EXPÉREINCES
+                EXPÉRIENCES
               </Link>
             </li>
             <li>
@@ -91,6 +91,7 @@ const Nav = () => {
           <button type="button" onClick={toggleBurger} className={" mx-4 "}>
             {<Burger />}
           </button>
+          {/*To manage githup & linkedin's URL*/}
           <a
             href="https://github.com/AlaaEddineRAHALI"
             className="block shrink-0 p-1"
