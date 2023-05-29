@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.139",
     "react-scroll": "^1.8.9",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "sweetalert2": "^11.4.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import contact from "../../assets/images/contact.png";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.css";
 import "./contactStyles.css";
 
 const Contact = () => {
@@ -41,7 +43,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Merci. Je reviendrai vers vous dans les plus brefs délais");
+          Swal.fire({
+            icon: "success",
+            title: "success",
+            text: "Je reviendrai vers vous dans les plus brefs délais",
+          });
+
           setForm({
             name: "",
             email: "",
@@ -52,6 +59,11 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
           alert(" Veuillez réessayer. Quelque chose n'a pas fonctionné");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Veuillez réessayer. Quelque chose n'a pas fonctionné",
+          });
         }
       );
   };
