@@ -15,7 +15,7 @@ const Projects = () => {
             Réalisations
           </h1>
 
-          <div className="flex flex-wrap gap-8 justify-center">
+          <div className="flex flex-wrap gap-8 justify-center 2xl:justify-start ">
             {/*Tilt's animation for one project*/}
             <Tilt>
               <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
@@ -208,6 +208,77 @@ const Projects = () => {
                     <div className="flex ">
                       <a className=" block bg-[#0172B1] py-3 pl-2 text-xs font-medium  uppercase text-white transition hover:text-black  w-3/4">
                         Construction En Cours
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </Tilt>
+            <Tilt>
+              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
+                <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+                  <time
+                    dateTime="2022-10-10"
+                    className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+                  >
+                    <span>2022</span>
+                    <span className="w-px flex-1 bg-gray-900/10"></span>
+                    <span>Nov 11</span>
+                  </time>
+                </div>
+                <div className="flex flex-wrap  ">
+                  <div className="w-3/4 sm:block sm:basis-40">
+                    <img
+                      alt="Icone-actiively"
+                      src={actiively_img}
+                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
+                    />
+                  </div>
+
+                  <div className="flex flex-1 flex-col justify-between">
+                    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:px-6 pt-6">
+                      <h1 className="font-bold uppercase text-gray-900">
+                        Actiively
+                      </h1>
+                      <p className="mt-2 text-sm/relaxed text-gray-700  ">
+                        L&apos;application Actiively réunit toutes les activités
+                        disponibles dans une zone géographique donnée. Elle
+                        offre aux organismes la possibilité de proposer leurs
+                        activités tandis que les utilisateurs peuvent aisément
+                        trouver une activité correspondant à leurs critères de
+                        recherche.
+                      </p>
+                      <h1 className="font-bold uppercase text-gray-900 pt-8">
+                        technologies
+                      </h1>
+                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
+                        <span className=" text-[#FF5733]"># HTML</span>
+                        <span className=" text-[#CD6799] leading-6">
+                          <br /># SCSS
+                        </span>
+                        <span className=" text-[#008080] leading-6">
+                          <br />
+                          #Semantic UI
+                        </span>
+                        <span className=" text-[#215732] leading-6">
+                          <br /># NodeJs
+                        </span>
+                        <span className=" text-blue-900 leading-6">
+                          <br /># PSQL
+                        </span>
+                        <span className=" text-[#61DBFB] ">
+                          <br /># React
+                        </span>
+                      </p>
+                    </div>
+                    <div className="flex ">
+                      <a
+                        href="https://alaa-eddine-rahali-portfolio.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="block bg-[#0172B1] py-3 pl-2  text-xs font-medium uppercase text-white transition hover:text-black  w-3/4"
+                      >
+                        Démo Actiively
                       </a>
                     </div>
                   </div>

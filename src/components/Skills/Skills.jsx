@@ -1,7 +1,51 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
+import Skil from "../Skil/skil";
 import "./skillsStyles.css";
 
+const cardsData = [
+  {
+    id: 1,
+    title: "Front-end",
+    info: {
+      title1: "HTML5",
+      title2: "CSS3",
+      title3: "Tailwind",
+      title4: "Javascript",
+      title5: "React",
+    },
+  },
+  {
+    id: 2,
+    title: "Back-end",
+    info: {
+      title1: "NodeJS",
+      title2: "Express",
+      title3: "Insomnia",
+      title4: "PostgresSQL",
+      title5: "Sequelize",
+    },
+  },
+
+  {
+    id: 3,
+    title: "IDE & Systèmes",
+    info: {
+      title1: "VScode",
+      title2: "GIT",
+      title3: "Ubuntu",
+      title4: "Windows",
+    },
+  },
+  {
+    id: 4,
+    title: "Gestion de projet",
+    info: {
+      title1: "Méthode Agile Scrum",
+      title2: "Jira",
+      title3: "Gantt",
+    },
+  },
+];
 const Skills = () => {
   return (
     <section id="skills" className="px-5 lg:pt-[9%] ">
@@ -20,64 +64,9 @@ const Skills = () => {
           </div>
 
           <div className="mx-22 flex flex-wrap justify-center gap-8 pt-8 lg:mx-0 lg:gap-4">
-            {/*Tilt's animation for one skils*/}
-            <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
-                <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Back-end
-                </h2>
-
-                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
-                  <li className="skills py-1">NodeJS</li>
-                  <li className="skills py-1">Express</li>
-                  <li className="skills py-1">Insomnia</li>
-                  <li className="skills py-1">PostgresSQL</li>
-                  <li className="skills py-1">Sequelize</li>
-                </ol>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
-                <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Front-end
-                </h2>
-
-                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
-                  <li className="skills py-1">HTML5</li>
-                  <li className="skills py-1">CSS3</li>
-                  <li className="skills py-1">Tailwind</li>
-                  <li className="skills py-1">Javascript</li>
-                  <li className="skills py-1">React</li>
-                </ol>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9] p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10 md:mx-0  lg:w-[220px] 2xl:w-[300px] ">
-                <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  IDE & Systèmes
-                </h2>
-
-                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
-                  <li className="skills py-1">VScode</li>
-                  <li className="skills py-1">GIT</li>
-                  <li className="skills py-1">Ubuntu</li>
-                  <li className="skills py-1">Windows</li>
-                </ol>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className="mx-6 block h-full w-[300px] rounded-xl bg-[#D9D9D9]  p-4 shadow-xl transition hover:border-gray-200/10 hover:shadow-gray-200/10  md:mx-0 lg:w-[220px] 2xl:w-[300px]">
-                <h2 className="mt-4 text-center text-xl font-bold text-[#0172B1] underline underline-offset-8 sm:text-2xl ">
-                  Gestion de projet
-                </h2>
-
-                <ol className="skills mt-2 text-center text-base text-[#554A4A]">
-                  <li className="skills py-1">Méthode Agile Scrum</li>
-                  <li className="skills py-1">Jira</li>
-                  <li className="skills py-1">Gantt</li>
-                </ol>
-              </div>
-            </Tilt>
+            {cardsData.map((card) => (
+              <Skil cardInfo={card} key={card.id} />
+            ))}
           </div>
         </div>
       </div>
