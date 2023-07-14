@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 import React, { useRef, useState } from "react";
 import contact from "../../assets/images/contact.png";
 import emailjs from "@emailjs/browser";

@@ -63,9 +63,9 @@ const projectInfo = [
     year: "2023",
     month: "Juill 07",
     img: dentist_img,
-    title: "O'dentiste",
+    title: "Dentiste 4 elle & lui",
     Description:
-      "O'dentiste, est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'Dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet.",
+      "Dentiste Act'elle & lui est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'Dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet.",
     technologie: {
       title1: "# WordPress",
     },
