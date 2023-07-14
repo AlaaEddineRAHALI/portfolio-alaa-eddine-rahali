@@ -3,6 +3,7 @@ import React from "react";
 import actiively_img from "../../assets/images/actiively_img.png";
 import portfolio_img from "../../assets/images/portfolio_img.jpg";
 import syndic_img from "../../assets/images/syndic_img.jpg";
+import dentist_img from "../../assets/images/dentist_img.jpg";
 import Projet from "../Project/Projet";
 import "./projectStyles.css";
 
@@ -43,7 +44,7 @@ const projectInfo = [
     img: portfolio_img,
     title: "Portfolio",
     Description:
-      "À travers les pages de mon portfolio, je souhaite partager avec vous mes réalisations les plus récentes ainsi que mes compétences dans différents domaines.vous trouverez ici un aperçu de mon savoir-faire et de ma passion pour mon métier. N'hésitez pas à explorer mes projets.",
+      "À travers les pages de mon portfolio, je souhaite partager avec vous mes réalisations les plus récentes ainsi que mes compétences dans différents domaines. vous trouverez ici un aperçu de mon savoir-faire et de ma passion pour mon métier. N'hésitez pas à explorer mes projets.",
     technologie: {
       title1: "# Tailwind",
       title2: "# CSS",
@@ -61,10 +62,10 @@ const projectInfo = [
     id: 3,
     year: "2023",
     month: "Juill 07",
-    // img: portfolio_img,
+    img: dentist_img,
     title: "O'dentiste",
     Description:
-      "O'dentiste, est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet",
+      "O'dentiste, est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'Dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet.",
     technologie: {
       title1: "# WordPress",
     },
