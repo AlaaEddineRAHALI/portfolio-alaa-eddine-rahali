@@ -39,22 +39,24 @@ function Projet({ projectInfo }) {
                 technologies
               </h1>
               <p className=" py-2 text-sm/relaxed text-gray-700 ">
-                <span className={`text-[${projectInfo.couleur.title1}]`}>
+                <span className={`text-[${projectInfo.color.title1}]`}>
                   {projectInfo.technologie.title1}
                 </span>
-                <span className={`text-[${projectInfo.couleur.title2}]`}>
+                <span className={`text-[${projectInfo.color.title2}]`}>
                   <br /> {projectInfo.technologie.title2}
                 </span>
-                <span className={`text-[${projectInfo.couleur.title3}]`}>
+                <span className={`text-[${projectInfo.color.title3}]`}>
                   <br /> {projectInfo.technologie.title3}
                 </span>
-                <span className={`text-[${projectInfo.couleur.title4}]`}>
+
+                <span className={`text-[${projectInfo.color.title4}]`}>
                   <br /> {projectInfo.technologie.title4}
                 </span>
-                <span className={`text-[${projectInfo.couleur.title5}]`}>
+
+                <span className={`text-[${projectInfo.color.title5}]`}>
                   <br /> {projectInfo.technologie.title5}
                 </span>
-                <span className={`text-[${projectInfo.couleur.title6}]`}>
+                <span className={`text-[${projectInfo.color.title6}]`}>
                   <br /> {projectInfo.technologie.title6}
                 </span>
               </p>

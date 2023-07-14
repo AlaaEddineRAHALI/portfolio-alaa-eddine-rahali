@@ -4,6 +4,7 @@ import actiively_img from "../../assets/images/actiively_img.png";
 import portfolio_img from "../../assets/images/portfolio_img.jpg";
 import syndic_img from "../../assets/images/syndic_img.jpg";
 import Projet from "../Project/Projet";
+import "./projectStyles.css";
 
 const projectInfo = [
   {
@@ -17,19 +18,21 @@ const projectInfo = [
     technologie: {
       title1: "# HTML",
       title2: "# SCSS",
-      title3: "#Semantic UI",
+      title3: "# Semantic UI",
       title4: "# NodeJs",
-      title5: "PSQL",
-      title6: "React",
+      title5: "# PSQL",
+      title6: "# React",
     },
-    couleur: {
+
+    color: {
       title1: "#FF5733",
       title2: "#CD6799",
       title3: "#008080",
       title4: "#215732",
-      title5: "#2a4365",
+      title5: "#0000FF",
       title6: "#61DBFB",
     },
+
     // lien: "",
     lien_title: "Découvrir Actiively",
   },
@@ -43,11 +46,13 @@ const projectInfo = [
       "À travers les pages de mon portfolio, je souhaite partager avec vous mes réalisations les plus récentes ainsi que mes compétences dans différents domaines.vous trouverez ici un aperçu de mon savoir-faire et de ma passion pour mon métier. N'hésitez pas à explorer mes projets.",
     technologie: {
       title1: "# Tailwind",
-      title2: "# React",
+      title2: "# CSS",
+      title3: "# React",
     },
-    couleur: {
+    color: {
       title1: "#008080",
-      title2: "#008080",
+      title2: "#0000FF",
+      title3: "#61DBFB",
     },
     lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
     lien_title: "Découvrir Portfolio",
@@ -63,7 +68,7 @@ const projectInfo = [
     technologie: {
       title1: "# WordPress",
     },
-    couleur: {
+    color: {
       title1: "#61DBFB",
     },
     // lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
@@ -83,7 +88,7 @@ const projectInfo = [
       title3: "# MySQL",
       title4: "# React",
     },
-    couleur: {
+    color: {
       title1: "#008080",
       title2: "#215732",
       title3: "#FF5733",
