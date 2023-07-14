@@ -1,20 +1,19 @@
 /* eslint-disable tailwindcss/classnames-order */
 import React from "react";
-import Tilt from "react-parallax-tilt";
 import actiively_img from "../../assets/images/actiively_img.png";
 import portfolio_img from "../../assets/images/portfolio_img.jpg";
 import syndic_img from "../../assets/images/syndic_img.jpg";
 import Projet from "../Project/Projet";
-// import "./projectsStyles.css";
 
 const projectInfo = [
   {
+    id: 1,
     year: "2022",
     month: "Nov 11",
     img: actiively_img,
     title: "Actiively",
     Description:
-      "L&apos;application Actiively réunit toutes les activités disponibles dans une zone géographique donnée. Elle offre aux organismes la possibilité de proposer leurs activités tandis que les utilisateurs peuvent aisément trouver une activité correspondant à leurs critères de recherche.",
+      "L'application Actiively réunit toutes les activités disponibles dans une zone géographique donnée. Elle offre aux organismes la possibilité de proposer leurs activités tandis que les utilisateurs peuvent aisément trouver une activité correspondant à leurs critères de recherche.",
     technologie: {
       title1: "# HTML",
       title2: "# SCSS",
@@ -31,8 +30,67 @@ const projectInfo = [
       title5: "#2a4365",
       title6: "#61DBFB",
     },
+    // lien: "",
+    lien_title: "Découvrir Actiively",
+  },
+  {
+    id: 2,
+    year: "2023",
+    month: "Jui 06",
+    img: portfolio_img,
+    title: "Portfolio",
+    Description:
+      "À travers les pages de mon portfolio, je souhaite partager avec vous mes réalisations les plus récentes ainsi que mes compétences dans différents domaines.vous trouverez ici un aperçu de mon savoir-faire et de ma passion pour mon métier. N'hésitez pas à explorer mes projets.",
+    technologie: {
+      title1: "# Tailwind",
+      title2: "# React",
+    },
+    couleur: {
+      title1: "#008080",
+      title2: "#008080",
+    },
     lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
-    lien_title: "Démo Actiively",
+    lien_title: "Découvrir Portfolio",
+  },
+  {
+    id: 3,
+    year: "2023",
+    month: "Juill 07",
+    // img: portfolio_img,
+    title: "O'dentiste",
+    Description:
+      "O'dentiste, est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet",
+    technologie: {
+      title1: "# WordPress",
+    },
+    couleur: {
+      title1: "#61DBFB",
+    },
+    // lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
+    lien_title: "Découvrir O'dentiste",
+  },
+  {
+    id: 4,
+    year: "2023",
+    month: "Juill 07",
+    img: syndic_img,
+    title: "O'Syndic",
+    Description:
+      "O'Syndic est un outil intelligent pour la gestion des copropriétés. Cette application offre aux syndics une optimisation de leurs tâches quotidiennes, dans l'objectif de fournir des prestations à la hauteur des attentes de leurs clients.",
+    technologie: {
+      title1: " #Tailwind",
+      title2: "# NodeJs",
+      title3: "# MySQL",
+      title4: "# React",
+    },
+    couleur: {
+      title1: "#008080",
+      title2: "#215732",
+      title3: "#FF5733",
+      title4: "#61DBFB",
+    },
+    lien: "https://player.vimeo.com/video/844603359?h=7de1749412",
+    lien_title: "Vidéo O'syndic V1",
   },
 ];
 
@@ -49,204 +107,6 @@ const Projects = () => {
             {projectInfo.map((card) => (
               <Projet projectInfo={card} key={card.id} />
             ))}
-
-            <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
-                <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
-                  <time
-                    dateTime="2022-10-10"
-                    className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-                  >
-                    <span>2023</span>
-                    <span className="w-px flex-1 bg-gray-900/10"></span>
-                    <span>Juin 06</span>
-                  </time>
-                </div>
-                <div className="flex flex-wrap ">
-                  <div className="w-3/4 sm:block sm:basis-40">
-                    <img
-                      alt="Icone-Portoflio"
-                      src={portfolio_img}
-                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
-                    />
-                  </div>
-
-                  <div className="flex flex-1 flex-col justify-between">
-                    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:px-6 pt-6">
-                      <h1 className="font-bold uppercase text-gray-900">
-                        Portfolio
-                      </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 ">
-                        À travers les pages de mon portfolio, je souhaite
-                        partager avec vous mes réalisations les plus récentes
-                        ainsi que mes compétences dans différents domaines.vous
-                        trouverez ici un aperçu de mon savoir-faire et de ma
-                        passion pour mon métier. N&apos;hésitez pas à explorer
-                        mes projets.
-                      </p>
-                      <h1 className="font-bold uppercase text-gray-900 pt-8">
-                        technologies
-                      </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
-                        <span className=" text-[#008080]"># Tailwind</span>
-                        <span className=" text-[#61DBFB] leading-6">
-                          <br /># React
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex ">
-                      <a
-                        href="https://alaa-eddine-rahali-portfolio.netlify.app/"
-                        target="_blank"
-                        className="block bg-[#0172B1] py-3 pl-2  text-xs font-medium uppercase text-white transition hover:text-black  w-3/4"
-                        rel="noreferrer"
-                      >
-                        Démo PortofliO
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </Tilt>
-            <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
-                <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
-                  <time
-                    dateTime="2022-10-10"
-                    className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-                  >
-                    <span>2023</span>
-                    <span className="w-px flex-1 bg-gray-900/10"></span>
-                    <span>Novem 11</span>
-                  </time>
-                </div>
-                <div className="flex flex-wrap ">
-                  <div className="w-3/4 sm:block sm:basis-40">
-                    <img
-                      alt="Icone-OSyndic"
-                      src={syndic_img}
-                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
-                    />
-                  </div>
-
-                  <div className="flex flex-1 flex-col justify-between">
-                    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:px-6 pt-6">
-                      <h1 className="font-bold uppercase text-gray-900">
-                        O&apos;Syndic
-                      </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700 ">
-                        O&apos;Syndic est un outil intelligent pour la gestion
-                        des copropriétés. Cette application offre aux syndics
-                        une optimisation de leurs tâches quotidiennes, dans
-                        l&apos;objectif de fournir des prestations à la hauteur
-                        des attentes de leurs clients.
-                        <span className="text-orange-500  ">
-                          <br /> | Site en cours de construciton
-                        </span>
-                      </p>
-                      <h1 className="font-bold uppercase text-gray-900 pt-8">
-                        technologies
-                      </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
-                        <span className=" text-[#FF5733]"># HTML</span>
-                        <span className=" text-[#CD6799] leading-6">
-                          <br /># SCSS
-                        </span>
-                        <span className=" text-[#008080] leading-6">
-                          <br />
-                          #Tailwind
-                        </span>
-                        <span className=" text-[#215732] leading-6">
-                          <br /># NodeJs
-                        </span>
-                        <span className=" text-blue-900 leading-6">
-                          <br /># PSQL
-                        </span>
-                        <span className=" text-[#61DBFB] ">
-                          <br /># React
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex ">
-                      <a className=" block bg-[#0172B1] py-3 pl-2 text-xs font-medium  uppercase text-white transition hover:text-black  w-3/4">
-                        Construction En Cours
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </Tilt>
-            <Tilt>
-              <article className="flex bg-white rounded-3xl w-[280px] h-full md:w-[440px] lg:w-[640px] 2xl:w-[400px]">
-                <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
-                  <time
-                    dateTime="2022-10-10"
-                    className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-                  >
-                    <span>2022</span>
-                    <span className="w-px flex-1 bg-gray-900/10"></span>
-                    <span>Nov 11</span>
-                  </time>
-                </div>
-                <div className="flex flex-wrap  ">
-                  <div className="w-3/4 sm:block sm:basis-40">
-                    <img
-                      alt="Icone-actiively"
-                      src={actiively_img}
-                      className="aspect-square h-full w-full object-cover flex mx-7 my-2 sm:m-0"
-                    />
-                  </div>
-
-                  <div className="flex flex-1 flex-col justify-between">
-                    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:px-6 pt-6">
-                      <h1 className="font-bold uppercase text-gray-900">
-                        Actiively
-                      </h1>
-                      <p className="mt-2 text-sm/relaxed text-gray-700  ">
-                        L&apos;application Actiively réunit toutes les activités
-                        disponibles dans une zone géographique donnée. Elle
-                        offre aux organismes la possibilité de proposer leurs
-                        activités tandis que les utilisateurs peuvent aisément
-                        trouver une activité correspondant à leurs critères de
-                        recherche.
-                      </p>
-                      <h1 className="font-bold uppercase text-gray-900 pt-8">
-                        technologies
-                      </h1>
-                      <p className=" text-sm/relaxed text-gray-700 py-2 ">
-                        <span className=" text-[#FF5733]"># HTML</span>
-                        <span className=" text-[#CD6799] leading-6">
-                          <br /># SCSS
-                        </span>
-                        <span className=" text-[#008080] leading-6">
-                          <br />
-                          #Semantic UI
-                        </span>
-                        <span className=" text-[#215732] leading-6">
-                          <br /># NodeJs
-                        </span>
-                        <span className=" text-blue-900 leading-6">
-                          <br /># PSQL
-                        </span>
-                        <span className=" text-[#61DBFB] ">
-                          <br /># React
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex ">
-                      <a
-                        href="https://alaa-eddine-rahali-portfolio.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block bg-[#0172B1] py-3 pl-2  text-xs font-medium uppercase text-white transition hover:text-black  w-3/4"
-                      >
-                        Démo Actiively
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </Tilt>
           </div>
         </div>
       </section>
