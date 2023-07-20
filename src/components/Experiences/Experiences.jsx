@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
 import france from "../../assets/images/icone/france.png";
 import ocklock from "../../assets/images/icone/ocklock.png";
@@ -220,7 +221,7 @@ function Experiences() {
                 Consultant SI
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1">
-                Avenir Conseil Formation Pour le client Renault
+                Avenir Conseil Formation (Groupe ALTEN) pour le client RENAULT
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
                 Guyancourt (78280)

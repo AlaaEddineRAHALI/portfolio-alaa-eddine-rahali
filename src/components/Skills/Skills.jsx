@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
 import Skil from "../Skil/skil";
 import "./skillsStyles.css";
@@ -62,7 +63,7 @@ const Skills = () => {
               possibilités infinies offertes par les avancées technologiques.
             </p>
           </div>
-
+          {/* to map data's skils*/}
           <div className="mx-22 flex flex-wrap justify-center gap-8 pt-8 lg:mx-0 lg:gap-4">
             {cardsData.map((card) => (
               <Skil cardInfo={card} key={card.id} />

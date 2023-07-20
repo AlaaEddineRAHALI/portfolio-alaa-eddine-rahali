@@ -3,9 +3,8 @@ import React from "react";
 import actiively_img from "../../assets/images/actiively_img.png";
 import portfolio_img from "../../assets/images/portfolio_img.jpg";
 import syndic_img from "../../assets/images/syndic_img.jpg";
-import dentist_img from "../../assets/images/dentist_img.jpg";
+import dentist_img from "../../assets/images/dentist_img.png";
 import Projet from "../Project/Projet";
-import "./projectStyles.css";
 
 const projectInfo = [
   {
@@ -17,24 +16,13 @@ const projectInfo = [
     Description:
       "L'application Actiively réunit toutes les activités disponibles dans une zone géographique donnée. Elle offre aux organismes la possibilité de proposer leurs activités tandis que les utilisateurs peuvent aisément trouver une activité correspondant à leurs critères de recherche.",
     technologie: {
-      title1: "# HTML",
-      title2: "# SCSS",
-      title3: "# Semantic UI",
-      title4: "# NodeJs",
-      title5: "# PSQL",
-      title6: "# React",
+      title1: "# SCSS",
+      title2: "# React",
+      title3: "# NodeJs",
+      title4: "# PSQL",
+      title5: "# HTML",
+      title6: "# Semantic UI",
     },
-
-    color: {
-      title1: "#FF5733",
-      title2: "#CD6799",
-      title3: "#008080",
-      title4: "#215732",
-      title5: "#0000FF",
-      title6: "#61DBFB",
-    },
-
-    // lien: "",
     lien_title: "Découvrir Actiively",
   },
   {
@@ -47,13 +35,8 @@ const projectInfo = [
       "À travers les pages de mon portfolio, je souhaite partager avec vous mes réalisations les plus récentes ainsi que mes compétences dans différents domaines. vous trouverez ici un aperçu de mon savoir-faire et de ma passion pour mon métier. N'hésitez pas à explorer mes projets.",
     technologie: {
       title1: "# Tailwind",
-      title2: "# CSS",
-      title3: "# React",
-    },
-    color: {
-      title1: "#008080",
-      title2: "#0000FF",
-      title3: "#61DBFB",
+      title2: "# React",
+      title3: "# CSS",
     },
     lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
     lien_title: "Découvrir Portfolio",
@@ -63,17 +46,13 @@ const projectInfo = [
     year: "2023",
     month: "Juill 07",
     img: dentist_img,
-    title: "Dentiste 4 elle & lui",
+    title: "WhiteTeeth",
     Description:
-      "Dentiste Act'elle & lui est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec O'Dentiste, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet.",
+      "WhiteTeeth est un site d'un cabinet dentaire. Ce site a été spécialement conçu pour simplifier les procédures administratives et offrir une expérience optimale aux patients. Avec WhiteTeeth, vous pouvez gérer efficacement toutes les tâches administratives de votre cabinet.",
     technologie: {
       title1: "# WordPress",
     },
-    color: {
-      title1: "#61DBFB",
-    },
-    // lien: "https://alaa-eddine-rahali-portfolio.netlify.app/",
-    lien_title: "Découvrir O'dentiste",
+    lien_title: "Découvrir WhiteTeeth",
   },
   {
     id: 4,
@@ -85,15 +64,9 @@ const projectInfo = [
       "O'Syndic est un outil intelligent pour la gestion des copropriétés. Cette application offre aux syndics une optimisation de leurs tâches quotidiennes, dans l'objectif de fournir des prestations à la hauteur des attentes de leurs clients.",
     technologie: {
       title1: " #Tailwind",
-      title2: "# NodeJs",
-      title3: "# MySQL",
-      title4: "# React",
-    },
-    color: {
-      title1: "#008080",
-      title2: "#215732",
-      title3: "#FF5733",
-      title4: "#61DBFB",
+      title2: "# React",
+      title3: "# NodeJs",
+      title4: "# MySQL",
     },
     lien: "https://player.vimeo.com/video/844603359?h=7de1749412",
     lien_title: "Vidéo O'syndic V1",
@@ -109,9 +82,9 @@ const Projects = () => {
             Réalisations
           </h1>
           <div className="flex flex-wrap gap-8 justify-center 2xl:justify-start ">
-            {/*Tilt's animation for one project*/}
+            {/*To map data's projectInfo*/}
             {projectInfo.map((card) => (
-              <Projet projectInfo={card} key={card.id} />
+              <Projet projectInfo={card} key={card.id} color={card.color} />
             ))}
           </div>
         </div>

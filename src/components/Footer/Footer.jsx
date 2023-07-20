@@ -1,6 +1,5 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
-
 import logo_website from "../../assets/images/logo_website.png";
 
 const Footer = () => {
