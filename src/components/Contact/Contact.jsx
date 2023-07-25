@@ -98,7 +98,7 @@ const Contact = () => {
                     type="text"
                     name="name"
                     className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                    placeholder="Quel est votre nom ?"
+                    placeholder="Veuillez saisir votre name"
                     required
                   />
                 </div>
@@ -115,7 +115,7 @@ const Contact = () => {
                     onChange={handleChange}
                     value={form.email}
                     className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                    placeholder="Quel est votre email"
+                    placeholder="Veuillez saisir votre email"
                     required
                   />
                 </div>
@@ -128,7 +128,7 @@ const Contact = () => {
                     name="message"
                     onChange={handleChange}
                     value={form.message}
-                    placeholder="Enter votre message"
+                    placeholder="Veuillez saisir votre message"
                     className="w-full rounded-lg border-none border-gray-200 p-4 pe-12 text-sm shadow-sm outline-none"
                     required
                   />
@@ -140,7 +140,7 @@ const Contact = () => {
                   type="submit"
                   className="inline-block rounded-full bg-[#0172B1] px-5 py-3 text-base font-medium  text-white  hover:text-black "
                 >
-                  {loading ? "Envoie en cours..." : "Envoyez"}
+                  {loading ? "Envoie en cours..." : "Valider"}
                 </button>
               </div>
             </form>
