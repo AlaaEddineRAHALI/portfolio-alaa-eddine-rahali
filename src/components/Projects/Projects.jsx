@@ -23,6 +23,7 @@ const projectInfo = [
       title5: "# HTML",
       title6: "# Semantic UI",
     },
+    lien: "https://actiively.onrender.com/",
     lien_title: "Découvrir Actiively",
   },
   {
