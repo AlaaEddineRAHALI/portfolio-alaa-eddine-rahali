@@ -39,7 +39,7 @@ const Nav = () => {
                 spy
                 to="about"
               >
-                ACCEUIL
+                ACCUEIL
               </Link>
             </li>
 
@@ -51,7 +51,7 @@ const Nav = () => {
                 spy
                 to="skills"
               >
-                COMPETENCES
+                COMPÉTENCES
               </Link>
             </li>
             <li>
