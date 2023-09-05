@@ -32,7 +32,7 @@ const AboutMe = () => {
             className={
               " mt-4 rounded-full bg-[#0172B1] p-3 px-6 text-xs hover:text-black sm:text-base lg:mt-3 "
             }
-            href="../../../cv_alaaeddine.pdf"
+            href="../../../Développeur FullStack Javascript Node.js - React.pdf"
             download
           >
             Télécharger mon CV

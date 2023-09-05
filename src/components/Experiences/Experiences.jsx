@@ -9,6 +9,7 @@ import iss from "../../assets/images/icone/iss.png";
 import insa from "../../assets/images/icone/insa.png";
 import iut_epinal from "../../assets/images/icone/iut_epinal.png";
 import fes from "../../assets/images/icone/fes.png";
+import psm from "../../assets/images/icone/PSM_I.png";
 import "./experiencesStyles.css";
 import {
   VerticalTimeline,
@@ -23,8 +24,28 @@ function Experiences() {
           <p className=" p-2 text-left text-3xl font-bold sm:pb-4 lg:text-center xl:text-4xl 2xl:text-6xl">
             Ingénieur Consultant{" "}
           </p>
+
           <VerticalTimeline>
             {/*To manage one experience's block*/}
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#9D9D9", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+              date={<span className="date">Septembre 2023</span>}
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={
+                <div className="icone-container">
+                  <img src={psm} alt="psm" className="icone-style" />
+                </div>
+              }
+            >
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
+                Obtention du Certificat Scrum Master (PSM I)
+              </h3>
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
+                Scrum.org
+              </h3>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#9D9D9", color: "#fff" }}
@@ -42,7 +63,7 @@ function Experiences() {
                 Mobile
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1">
-                Ministère du travail du plein d’emploi et de l’insertion
+                Ministère du Travail du Plein Emploi et de l’Insertion
               </h3>
               <h3 className="vertical-timeline-element-subtitle container-title2">
                 Paris (75007)
@@ -59,7 +80,7 @@ function Experiences() {
               }
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
-                Formation de reconversion de 6 mois Développeur Web FullStack
+                Formation de reconversion de 6 mois Développeur Web Full Stack
                 Javascript / React
               </h3>
               <h3 className="vertical-timeline-element-title container-title1">
@@ -88,7 +109,7 @@ function Experiences() {
                   Arborescence et User Stories.
                 </li>
                 <li className="li_style">
-                  • Construire le Front : Create react-app, Components, Context,
+                  • Construire le front : Create react-app, Components, Context,
                   Routes.
                 </li>
                 <li className="li_style">• Styliser avec SaSS.</li>
@@ -96,12 +117,13 @@ function Experiences() {
                   • S&apos;inscrire avec hashage de mot de passe.
                 </li>
                 <li className="li_style">
-                  • S&apos;authentifier les comptes pour accéder à l&apos;espace
-                  organisme.
+                  • S&apos;authentifier sur les comptes pour accéder à
+                  l&apos;espace organisme.
                 </li>
                 <li className="li_style">• Requêter avec Axios.</li>
                 <li className="li_style">
-                  • Créer un filtre de rechercher pour affiner la recherche.
+                  • Créer un filtre pour permettre à l&apos;utilisateur
+                  d&apos;affiner sa recherche.
                 </li>
               </ul>
             </VerticalTimelineElement>

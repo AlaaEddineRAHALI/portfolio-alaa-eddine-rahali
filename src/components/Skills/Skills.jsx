@@ -6,7 +6,7 @@ import "./skillsStyles.css";
 const cardsData = [
   {
     id: 1,
-    title: "Front-end",
+    title: "Front-End",
     info: {
       title1: "HTML5",
       title2: "CSS3",
@@ -17,7 +17,7 @@ const cardsData = [
   },
   {
     id: 2,
-    title: "Back-end",
+    title: "Back-End",
     info: {
       title1: "NodeJS",
       title2: "Express",
