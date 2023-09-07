@@ -53,6 +53,7 @@ const projectInfo = [
     technologie: {
       title1: "# WordPress",
     },
+    lien: "https://whiteteeth.great-site.net/",
     lien_title: "Découvrir WhiteTeeth",
   },
   {

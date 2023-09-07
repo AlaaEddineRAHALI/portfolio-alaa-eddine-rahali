@@ -1,5 +1,5 @@
 import React from "react";
-import alaaeddine_profil from "../../assets/images/alaaeddine_profil.jpg";
+import alaaeddine_profil from "../../assets/images/alaaeddine_profil.png";
 import "./aboutMeStyles.css";
 
 const AboutMe = () => {
