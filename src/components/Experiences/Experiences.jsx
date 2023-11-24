@@ -147,16 +147,35 @@ function Experiences() {
               <h3 className="vertical-timeline-element-subtitle container-title2">
                 Guyancourt (78280)
               </h3>
-              <p className="container-title1">Mission 1 : Business Analyst:</p>
+              <p className="container-title1">Mission 1 : Business Analyst</p>
               <p className="container-title1">
-                Mission 2 : Gérer les évolutions PLM V6 via MANTIS:
+                Mission 2 : Gérer les évolutions PLM V6 via MANTIS
               </p>
 
               <p className="container-title1">
-                Mission 3 : Consultant déploiement:
+                Mission 3 : Consultant déploiement
               </p>
             </VerticalTimelineElement>
-
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={<span className="date">2019</span>}
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={
+                <div className="icone-container">
+                  <img src={agile} alt="agile" className="icone-style" />
+                </div>
+              }
+            >
+              <h3 className="vertical-timeline-element-title container-title my-2 leading-6 ">
+                Formation de deux jours sur le travail en équipe AGILE
+              </h3>
+              <h3 className="vertical-timeline-element-title container-title1 py-1">
+                SQLI I Instituit
+              </h3>
+              <h3 className="vertical-timeline-element-subtitle container-title2">
+                Levallois Perret (92300)
+              </h3>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date={<span className="date">2017 - 2019</span>}
@@ -219,7 +238,7 @@ function Experiences() {
               }
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
-                Ingénieur en Méthodes Logistiques et Amélioration Continue
+                Ingénieur en Méthodes
               </h3>
               <h3 className="vertical-timeline-element-title container-title1 py-1">
                 ADS Laminaire
@@ -308,7 +327,7 @@ function Experiences() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date={<span className="date">2014</span>}
+              date={<span className="date">2014 - 2014</span>}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={
                 <div className="icone-container">
