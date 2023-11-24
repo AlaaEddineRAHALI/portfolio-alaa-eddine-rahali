@@ -31,7 +31,7 @@ function Experiences() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#9D9D9", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-              date={<span className="date">Septembre 2023</span>}
+              date={<span className="date">2023</span>}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -50,7 +50,7 @@ function Experiences() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#9D9D9", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-              date={<span className="date">Mars 2023</span>}
+              date={<span className="date">2023</span>}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -71,7 +71,7 @@ function Experiences() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date={<span className="date">Juin 2022 - Novembre 2022</span>}
+              date={<span className="date">2023</span>}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -129,7 +129,7 @@ function Experiences() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date={<span className="date">Juin 2019 - Septembre 2021</span>}
+              date={<span className="date">2019- 2022</span>}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -147,91 +147,19 @@ function Experiences() {
               <h3 className="vertical-timeline-element-subtitle container-title2">
                 Guyancourt (78280)
               </h3>
-              <p className="container-title1">
-                Mission 1 : Consultant AMOA PLM sur la partie Echange
-                Forunisseur:
-              </p>
-
-              <ul className="ul_style">
-                <li className="li_style">
-                  • Améliorer le processus d&apos;échange des données avec les
-                  fournisseurs Renault.
-                </li>
-                <li className="li_style">
-                  • Etudier et analyser les incidents liés aux échanges
-                  fournisseurs.
-                </li>
-                <li className="li_style">
-                  • Capturer le besoin et rédiger les uses cases des nouvelles
-                  fonctionnalités à intégrer dans l’outil.
-                </li>
-                <li className="li_style">
-                  • Tester et valider les nouvelles fonctionnalités dans
-                  l’outil.
-                </li>
-                <li className="li_style">
-                  • Rédiger et maintenir les guides méthodologiques dédiés aux
-                  échanges Renault / Fournisseur.
-                </li>
-                <li className="li_style">
-                  • Animer les sessions de formation sur les évolutions liées à
-                  l’Entreprise Etendue auprès des métiers.
-                </li>
-              </ul>
-
+              <p className="container-title1">Mission 1 : Business Analyst:</p>
               <p className="container-title1">
                 Mission 2 : Gérer les évolutions PLM V6 via MANTIS:
               </p>
-              <ul className="ul_style">
-                <li className="li_style">
-                  • Assurer le suivi du processus défini pour les demandes des
-                  évolutions.
-                </li>
-                <li className="li_style">
-                  • Recueillir et analyser les gains économiques liés aux
-                  évolutions dans le PLM V6.
-                </li>
-                <li className="li_style">
-                  • Participer aux suivis des releases (Passage au Control
-                  TOWER, Mise en production (MEP)).
-                </li>
-              </ul>
+
               <p className="container-title1">
                 Mission 3 : Consultant déploiement:
               </p>
-              <ul className="ul_style">
-                <li className="li_style">
-                  • Recueillir, Formaliser et prioriser les besoins métiers.
-                </li>
-                <li className="li_style">
-                  • Suivre l&apos;avancement du déploiement (User formés, Kit de
-                  communication…).
-                </li>
-              </ul>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date={<span className="date">Février 2019</span>}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={
-                <div className="icone-container">
-                  <img src={agile} alt="agile" className="icone-style" />
-                </div>
-              }
-            >
-              <h3 className="vertical-timeline-element-title container-title my-2 leading-6 ">
-                Formation de deux jours sur le travail en équipe AGILE
-              </h3>
-              <h3 className="vertical-timeline-element-title container-title1 py-1">
-                SQLI I Instituit
-              </h3>
-              <h3 className="vertical-timeline-element-subtitle container-title2">
-                Levallois Perret (92300)
-              </h3>
-            </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date={<span className="date">Septembre 2017 - Juin 2019</span>}
+              date={<span className="date">2017 - 2019</span>}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -278,7 +206,7 @@ function Experiences() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date={<span className="date">Novembre 2014 - Juillet 2017</span>}
+              date={<span className="date">2014 - 2017</span>}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={
                 <div className="icone-container">
@@ -380,7 +308,7 @@ function Experiences() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date={<span className="date">Mai 2014 - Septembre 2014</span>}
+              date={<span className="date">2014</span>}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={
                 <div className="icone-container">
