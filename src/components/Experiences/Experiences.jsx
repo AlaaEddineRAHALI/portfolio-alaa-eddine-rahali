@@ -80,8 +80,8 @@ function Experiences() {
               }
             >
               <h3 className="vertical-timeline-element-title container-title my-2 leading-6">
-                Formation de reconversion de 6 mois Développeur Web Full Stack
-                Javascript / React
+                Formation de 6 mois Développeur Web Full Stack Javascript /
+                React
               </h3>
               <h3 className="vertical-timeline-element-title container-title1">
                 Ecole O&apos;clock
